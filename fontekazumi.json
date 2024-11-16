@@ -761,11 +761,6 @@
 			"uploadDate":"2024-10-20T23:00:00.000Z",
 			"fileSize":"3 GB"},
 			{
-			"title":"WWE 2K24 [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:QPJA52Y3RWEO5UF4HWJSYKOSHARVWL7Q&dn=WWE%202K24&tr.1=http%3A%2F%2Fretracker.local%2Fannounce&tr.2=&tr.3=http%3A%2F%2Fretracker.local%2Fannounce&tr.4=udp%3A%2F%2Fopentor.org%3A2710&tr.5=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr.6=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr.7=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.8=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.9=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr.10=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.11=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.12=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr.13=http%3A%2F%2Fbt.xbtrutor.com%3A2710%2Fannounce"],
-			"uploadDate":"2024-10-20T23:00:00.000Z",
-			"fileSize":"91.22 GB"},
-			{
 			"title":"Days Gone (1.07)",
 			"uris":["magnet:?xt=urn:btih:RNISZGZGPZ3PZDTMUU5VHQ2ZWTYCH764&dn=Days%20Gone%20v.1.07%20(2019-2021)&tr.1=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr.2=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr.3=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounc&tr.4=http%3A%2F%2Fretracker.local%2Fannounce&tr.5=http%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr.6=http%3A%2F%2Ftracker2.wasabii.com.tw%3A6969%2Fannounce&tr.7=http%3A%2F%2Ftracker.grepler.com%3A6969%2Fannounce&tr.8=http%3A%2F%2F125.227.35.196%3A6969%2Fannounce&tr.9=http%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr.10=http%3A%2F%2F87.248.186.252%3A8080%2Fannounce&tr.11=http%3A%2F%2F210.244.71.25%3A6969%2Fannounce&tr.12=http%3A%2F%2F46.4.109.148%3A6969%2Fannounce&tr.13=udp%3A%2F%2F46.148.18.250%3A2710&tr.14=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr.15=udp%3A%2F%2F%5B2001%3A67c%3A28f8%3A92%3A%3A1111%3A1%5D%3A2710&tr.16=udp%3A%2F%2Fipv6.leechers-paradise.org%3A6969"],
 			"uploadDate":"2024-10-20T23:00:00.000Z",
@@ -2149,6 +2144,16 @@
 			"title":"Metaphor: ReFantazio (Anniversary Edition v5) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/B6owpM"],
 			"uploadDate":"2024-11-15T23:00:00.000Z",
-			"fileSize":"60.7 GB"}
+			"fileSize":"60.7 GB"},
+			{
+			"title":"WWE 2K24 WCW Pack (v1.24 + 12 DLC]",
+			"uris":["magnet:?xt=urn:btih:VY6IJ6RGQT72SLF7776FWGLDOWW4HK6F&dn=WWE%202K24&tr.1=http%3A%2F%2Fbt3.t-ru.org%2Fann&tr.2=http%3A%2F%2Fbt3.t-ru.org%2Fann&tr.3=http%3A%2F%2Fretracker.local%2Fannounce"],
+			"uploadDate":"2024-11-16T23:00:00.000Z",
+			"fileSize":"94.3 GB"},
+			{
+			"title":"Assassin's Creed Mirage (v1.0.6 + 14 Idiomas) [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:RHZUDDNZIKFRWNUDGXOAAUGXO5GNFHK5&dn=Assassins%20Creed%20Mirage&tr.1=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.2=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.3=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr.4=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.5=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.6=http%3A%2F%2Ftr5.ysagin.top%3A80%2F"],
+			"uploadDate":"2024-11-16T23:00:00.000Z",
+			"fileSize":"41.1 GB"}
 		]
 	}
