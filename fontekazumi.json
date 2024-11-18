@@ -1416,21 +1416,6 @@
 			"uploadDate":"2024-11-06T23:00:00.000Z",
 			"fileSize":"1.2 GB"},
 			{
-			"title":"Crysis 3 Remastered [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:22BXN52IEZGY67MBJXWXCS3JSJMNIIRG&dn=Crysis%203%20Remastered&tr.1=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.2=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.3=http%3A%2F%2Ftr2.ysagin.top%3A2715%2Fannounce&tr.4=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr.5=udp%3A%2F%2Fopentor.org%3A2710"],
-			"uploadDate":"2024-11-06T23:00:00.000Z",
-			"fileSize":"18 GB"},
-			{
-			"title":"Crysis 2 Remastered [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:7OBMIUAQPADXLE5TS3O34PFSHPDIOXUT&dn=Crysis%202%20Remastered&tr.1=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.2=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.3=http%3A%2F%2Ftr2.ysagin.top%3A2715%2Fannounce&tr.4=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr.5=udp%3A%2F%2Fopentor.org%3A2710"],
-			"uploadDate":"2024-11-06T23:00:00.000Z",
-			"fileSize":"53.8 GB"},
-			{
-			"title":"Crysis Remastered [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:TTMBYIPOA7KKEB2DKROGX346SWAK3NLM&dn=Crysis%20Remastered%20(2007-2020)&tr.1=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr.2=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr.3=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounc&tr.4=http%3A%2F%2Fretracker.local%2Fannounce&tr.5=http%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr.6=http%3A%2F%2Ftracker2.wasabii.com.tw%3A6969%2Fannounce&tr.7=http%3A%2F%2Ftracker.grepler.com%3A6969%2Fannounce&tr.8=http%3A%2F%2F125.227.35.196%3A6969%2Fannounce&tr.9=http%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr.10=http%3A%2F%2F87.248.186.252%3A8080%2Fannounce&tr.11=http%3A%2F%2F210.244.71.25%3A6969%2Fannounce&tr.12=http%3A%2F%2F46.4.109.148%3A6969%2Fannounce&tr.13=udp%3A%2F%2F46.148.18.250%3A2710&tr.14=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr.15=udp%3A%2F%2F%5B2001%3A67c%3A28f8%3A92%3A%3A1111%3A1%5D%3A2710&tr.16=udp%3A%2F%2Fipv6.leechers-paradise.org%3A6969"],
-			"uploadDate":"2024-11-06T23:00:00.000Z",
-			"fileSize":"19.9 GB"},
-			{
 			"title":"Windblown [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:VYDMFJUQXWOQJB2H4XPZYDKHVJE2KCCD&dn=Windblown&tr.1=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.2=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.3=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr.4=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.5=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.6=http%3A%2F%2Ftr5.ysagin.top%3A80%2F"],
 			"uploadDate":"2024-11-06T23:00:00.000Z",
@@ -2249,6 +2234,21 @@
 			"title":"Men of War II (v1.040) [RUNE]",
 			"uris":["magnet:?xt=urn:btih:ERLCYFKK7BNOVQIME24GW64SFN4JBIVB&dn=Men.of.War.II-RUNE&tr.1=http%3A%2F%2Fbt4.t-ru.org%2Fann&tr.2=http%3A%2F%2Fbt4.t-ru.org%2Fann&tr.3=http%3A%2F%2Fretracker.local%2Fannounce"],
 			"uploadDate":"2024-11-18T23:00:00.000Z",
-			"fileSize":"21.3 GB"}	
+			"fileSize":"21.3 GB"},
+			{
+			"title":"Crysis 3 Remastered [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/XLdWLUjm"],
+			"uploadDate":"2024-11-18T23:00:00.000Z",
+			"fileSize":"16.4 GB"},
+			{
+			"title":"Crysis 2 Remastered [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/39WoruDi"],
+			"uploadDate":"2024-11-18T23:00:00.000Z",
+			"fileSize":"46 GB"},
+			{
+			"title":"Crysis [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/MM8juia9"],
+			"uploadDate":"2024-11-18T23:00:00.000Z",
+			"fileSize":"6.9 GB"}
 		]
 	}
