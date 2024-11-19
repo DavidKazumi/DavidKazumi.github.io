@@ -176,11 +176,6 @@
 			"uploadDate":"2024-10-03T23:00:00.000Z",
 			"fileSize":"35.6 GB"},
 			{
-			"title":"The Sims 4 - ElAmigos",
-			"uris":["magnet:?xt=urn:btih:CC4DBABF3ABFC6214AB3832DDCB8E2319FEADA07&dn=The.Sims.4.Digital.Deluxe.Edition.v1.29.69.1020.MULTi17-ElAmigos&tr=http%3A%2F%2F173.254.204.71%3A1096%2Fannounce&tr=http%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker2.wasabii.com.tw%3A6969%2Fannounce&tr=udp%3A%2F%2F182.176.139.149%3A6969%2Fannounce&tr=udp%3A%2F%2Fmgtracker.org%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracke&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce"],
-			"uploadDate":"2024-10-03T23:00:00.000Z",
-			"fileSize":"19.8 GB"},
-			{
 			"title":"Far Cry 3 Complete Collection - ElAmigos",
 			"uris":["magnet:?xt=urn:btih:FB2241A0875EC890FA30D1806ECA98AB455911F3&dn=Far+Cry+3+Complete+Collection+MULTi13-ElAmigos&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=http%3A%2F%2Finferno.demonoid.com%3A3418%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Fannounce.torrentsmd.com%3A6969%2Fannounce&tr=http%3A%2F%2Fbigfoot1942.sektori.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.careland.com.cn%3A6969%2Fannounce&tr=http%3A%2F%2Fbttracker.crunchbanglinux.org%3A6969%2Fannounce&tr=http%3A%2F%2Fannounce.torrentsmd.com%3A8080%2Fannounce&tr=http%3A%2F%2Ftracker.cliklink.altervista.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce"],
 			"uploadDate":"2024-10-03T23:00:00.000Z",
@@ -2259,6 +2254,31 @@
 			"title":"Undungeon (v1.0.12) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/DaTJmkex"],
 			"uploadDate":"2024-11-18T23:00:00.000Z",
-			"fileSize":"1.6 GB"}
+			"fileSize":"1.6 GB"},
+			{
+			"title":"The Sims 4 Life and Death (v1.110.311.1020)",
+			"uris":["magnet:?xt=urn:btih:2XRVKVH2X33XTIACGJVTBOBRBTCKJN2A&dn=The.Sims.4.Life.and.Death-RUNE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"],
+			"uploadDate":"2024-11-19T23:00:00.000Z",
+			"fileSize":"62.9 GB"},
+			{
+			"title":"Galaxy Burger (v1.2.1 + Online)",
+			"uris":["https://pixeldrain.com/u/Wfovsig1"],
+			"uploadDate":"2024-11-19T23:00:00.000Z",
+			"fileSize":"156 MB"},
+			{
+			"title":"American Fugitive (v1.1.19095)",
+			"uris":["https://pixeldrain.com/u/sFaq5amZ"],
+			"uploadDate":"2024-11-19T23:00:00.000Z",
+			"fileSize":"975 MB"},
+			{
+			"title":"Arma: Cold War Assault (v1.99)",
+			"uris":["https://pixeldrain.com/u/QEEV58eE"],
+			"uploadDate":"2024-11-19T23:00:00.000Z",
+			"fileSize":"641 MB"},
+			{
+			"title":"Papa's Pizzeria Deluxe (Build 16460295)",
+			"uris":["https://pixeldrain.com/u/pEj29ryZ"],
+			"uploadDate":"2024-11-19T23:00:00.000Z",
+			"fileSize":"87 MB"}
 		]
 	}
