@@ -1956,11 +1956,6 @@
 			"uploadDate":"2024-11-15T23:00:00.000Z",
 			"fileSize":"98.6 GB"},
 			{
-			"title":"Palworld (v0.3.10.61184) [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:CJUT5RBP75IKWB5FZ5L67DSIC54FDXUC&dn=Palworld&tr.1=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.2=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.3=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr.4=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr.5=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.6=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.7=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr.8=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr.9=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr.10=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr.11=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.12=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr.13=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr.14=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr.15=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce"],
-			"uploadDate":"2024-11-15T23:00:00.000Z",
-			"fileSize":"21.6 GB"},
-			{
 			"title":"Subnautica (v72550) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/7AcZz6nw"],
 			"uploadDate":"2024-11-15T23:00:00.000Z",
@@ -2344,6 +2339,36 @@
 			"title":"Yu-Gi-Oh! Legacy of the Duelist : Link Evolution [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/gaJKuNw7"],
 			"uploadDate":"2024-11-20T23:00:00.000Z",
-			"fileSize":"1.4 GB"}
+			"fileSize":"1.4 GB"},
+			{
+			"title":"Forgotten but Unbroken [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:W5EF4OV376ARCITUGYD4D34QPE5PDWTU&dn=Forgotten.but.Unbroken-InsaneRamZes&tr.1=http%3A%2F%2Fbt3.t-ru.org%2Fann&tr.2=http%3A%2F%2Fbt3.t-ru.org%2Fann&tr.3=http%3A%2F%2Fretracker.local%2Fannounce"],
+			"uploadDate":"2024-11-21T23:00:00.000Z",
+			"fileSize":"33.8 GB"},
+			{
+			"title":"Palworld (v0.3.10.61184 + Co-op) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/Fr97Ap"],
+			"uploadDate":"2024-11-21T23:00:00.000Z",
+			"fileSize":"19.3 GB"},
+			{
+			"title":"Songs of Silence (v1.0.0)",
+			"uris":["https://gofile.io/d/tuXS7k"],
+			"uploadDate":"2024-11-21T23:00:00.000Z",
+			"fileSize":"6 GB"},
+			{
+			"title":"Luma Island (v1.19219) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/LKQUdvi1"],
+			"uploadDate":"2024-11-21T23:00:00.000Z",
+			"fileSize":"2.2 GB"},
+			{
+			"title":"The Devil Within: Satgat [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/NoDtTEFx"],
+			"uploadDate":"2024-11-21T23:00:00.000Z",
+			"fileSize":"7 GB"},
+			{
+			"title":"Microsoft Flight Simulator 2024 (v1.1.7.0 + Online) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/bx1F27"],
+			"uploadDate":"2024-11-21T23:00:00.000Z",
+			"fileSize":"10.2 GB"}
 		]
 	}
