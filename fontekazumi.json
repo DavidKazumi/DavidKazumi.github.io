@@ -809,7 +809,7 @@
 			"title":"Sekiro: Shadows Die Twice - GOTY Edition [Pre-Instalado]",
 			"uris":["https://gofile.io/d/Uf5L5H"],
 			"uploadDate":"2024-10-25T23:00:00.000Z",
-			"fileSize":"14.2 GB"},
+			"fileSize":"13.2 GB"},
 			{
 			"title":"Ghost of Tsushima: Director’s Cut [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:7FGQRXVWEVS6OFR6EO7YOHW34Z6YOHHE&dn=Ghost%20of%20Tsushima%20(2020-2024)&tr.1=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.2=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.3=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr.4=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr.5=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.6=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.7=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr.8=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.9=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr.10=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr.11=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr.12=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr.13=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr.14=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr.15=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr.16=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr.17=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr.18=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr.19=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr.20=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr.21=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce"],
@@ -930,11 +930,6 @@
 			"uris":["https://pixeldrain.com/u/dxRnLTL5"],
 			"uploadDate":"2024-10-29T23:00:00.000Z",
 			"fileSize":"9.5 GB"},
-			{
-			"title":"Amanda the Adventurer 2 [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/vtf7Sm5p"],
-			"uploadDate":"2024-10-29T23:00:00.000Z",
-			"fileSize":"4.8 GB"},
 			{
 			"title":"The Elder Scrolls V: Skyrim Special Edition [Pre-Instalado]",
 			"uris":["https://gofile.io/d/BtD3RH"],
@@ -1245,11 +1240,6 @@
 			"uris":["https://pixeldrain.com/u/6uJGzbZK"],
 			"uploadDate":"2024-11-03T23:00:00.000Z",
 			"fileSize":"1.3 GB"},
-			{
-			"title":"Magicraft (v1.0) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/pQmjgfvZ"],
-			"uploadDate":"2024-11-04T23:00:00.000Z",
-			"fileSize":"538 MB"},
 			{
 			"title":"Anonymous Hacker Simulator (Build 16213148) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/cJ8kn6XQ"],
@@ -1665,11 +1655,6 @@
 			"uris":["https://pixeldrain.com/u/2UhvxZwY"],
 			"uploadDate":"2024-11-12T23:00:00.000Z",
 			"fileSize":"573 MB"},
-			{
-			"title":"ZERO Sievert (v1.04) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/N8H779Y5"],
-			"uploadDate":"2024-11-12T23:00:00.000Z",
-			"fileSize":"262 MB"},
 			{
 			"title":"Teardown (v1.6.2) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/K9zASDTp"],
@@ -2424,6 +2409,36 @@
 			"title":"Luma Island (v1.19219) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/jjoS83"],
 			"uploadDate":"2024-11-24T23:00:00.000Z",
-			"fileSize":"2.2 GB"}
+			"fileSize":"2.2 GB"},
+			{
+			"title":"ZERO Sievert (v1.07) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/Zqet6BdU"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"268 MB"},
+			{
+			"title":"Amanda the Adventurer 2 (v1.0.5) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/6EAoVAyK"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"4.8 GB"},	
+			{
+			"title":"Magicraft (v1.0.45) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/ssTN5a7D"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"558 MB"},
+			{
+			"title":"WrestleQuest (Build 15388309) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/rQXUfRcq"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"2 GB"},
+			{
+			"title":"Grocery Store Simulator (v1.0) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/Q5QrpFXp"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"5.7 GB"},
+			{
+			"title":"Kerbal Space Program 2 (v0.2.2.0.32913) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/QqWUvAMG"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"16.1 GB"}
 		]
 	}
