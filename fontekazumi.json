@@ -1411,11 +1411,6 @@
 			"uploadDate":"2024-11-06T23:00:00.000Z",
 			"fileSize":"810.5 MB"},
 			{
-			"title":"Disco Elysium - The Final Cut [Pre-Instalado]",
-			"uris":["https://gofile.io/d/w0lHXl"],
-			"uploadDate":"2024-11-06T23:00:00.000Z",
-			"fileSize":"10 GB"},
-			{
 			"title":"Paint the Town Red (v1.3.4) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/pc3mNZ"],
 			"uploadDate":"2024-11-07T23:00:00.000Z",
@@ -2439,6 +2434,21 @@
 			"title":"Kerbal Space Program 2 (v0.2.2.0.32913) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/QqWUvAMG"],
 			"uploadDate":"2024-11-25T23:00:00.000Z",
-			"fileSize":"16.1 GB"}
+			"fileSize":"16.1 GB"},
+			{
+			"title":"Disco Elysium – The Final Cut (a0a062e7) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/TFffMq"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"9.3 GB"},
+			{
+			"title":"Lobotomy Corporation | Monster Management Simulation (v1.0.2.13f1) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/FCZE2u"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"1.8 GB"},
+			{
+			"title":"We Were Here Forever (v1.0.29 + Co-op) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/mjjusB"],
+			"uploadDate":"2024-11-25T23:00:00.000Z",
+			"fileSize":"11.4 GB"}
 		]
 	}
