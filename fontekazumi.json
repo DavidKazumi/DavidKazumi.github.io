@@ -1066,11 +1066,6 @@
 			"uploadDate":"2024-10-31T23:00:00.000Z",
 			"fileSize":"89.2 GB"},
 			{
-			"title":"Brotato (v1.1.4.0) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/9EwbdkYn"],
-			"uploadDate":"2024-11-01T23:00:00.000Z",
-			"fileSize":"156 MB"},
-			{
 			"title":"Five Nights at Freddy’s: Into the Pit (v1.0.9.0) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/rQrqdxq6"],
 			"uploadDate":"2024-11-01T23:00:00.000Z",
@@ -1285,11 +1280,6 @@
 			"uris":["https://pixeldrain.com/u/fdZsxrNN"],
 			"uploadDate":"2024-11-05T23:00:00.000Z",
 			"fileSize":"755 MB"},
-			{
-			"title":"Phasmophobia (v0.11.0.1 + Co-op) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/ZPX8Hs"],
-			"uploadDate":"2024-11-05T23:00:00.000Z",
-			"fileSize":"13.5 GB"},
 			{
 			"title":"Dont Be Afraid 2 (v1.0.1) [GOG]",
 			"uris":["https://gofile.io/d/qSGn7Z"],
@@ -2544,6 +2534,16 @@
 			"title":"Balatro (v1.0.1m) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/9Kvv8iFq"],
 			"uploadDate":"2024-11-26T23:00:00.000Z",
-			"fileSize":"144 MB"}
+			"fileSize":"144 MB"},
+			{
+			"title":"Phasmophobia (v0.11.0.3 + Co-op) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/dWUgiU"],
+			"uploadDate":"2024-11-26T23:00:00.000Z",
+			"fileSize":"13.4 GB"},
+			{
+			"title":"Brotato (v1.1.7.1) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/v5KTZYMz"],
+			"uploadDate":"2024-11-26T23:00:00.000Z",
+			"fileSize":"747 MB"}
 		]
 	}
