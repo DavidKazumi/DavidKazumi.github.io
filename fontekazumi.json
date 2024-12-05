@@ -716,11 +716,6 @@
 			"uploadDate":"2024-10-22T23:00:00.000Z",
 			"fileSize":"49.9 GB"},
 			{
-			"title":"Euro Truck Simulator 2 (v1.52.0.0 + 93 DLC) [ElAmigos]",
-			"uris":["https://gofile.io/d/RW2Y6U"],
-			"uploadDate":"2024-10-22T23:00:00.000Z",
-			"fileSize":"14.4 GB"},
-			{
 			"title":"Teenage Mutant Ninja Turtles Mutants Unleashed [GoldBerg]",
 			"uris":["https://gofile.io/d/DYhyl1"],
 			"uploadDate":"2024-10-22T23:00:00.000Z",
@@ -1180,11 +1175,6 @@
 			"uris":["magnet:?xt=urn:btih:XL5AM5KAKMCXMY6JONFWCH6Z5YBMKOTK&dn=Empire%20of%20the%20Ants%20(2024)&tr.1=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.2=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.3=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr.4=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr.5=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.6=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.7=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr.8=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr.9=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr.10=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr.11=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.12=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr.13=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr.14=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr.15=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce"],
 			"uploadDate":"2024-11-04T23:00:00.000Z",
 			"fileSize":"36.9 GB"},
-			{
-			"title":"Buckshot Roulette (Multiplayer) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/fNXrLD"],
-			"uploadDate":"2024-11-04T23:00:00.000Z",
-			"fileSize":"552.5 MB"},
 			{
 			"title":"SULFUR (v0.9.6) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/3johjNJ4"],
@@ -2794,6 +2784,36 @@
 			"title":"Entropy Survivors (Build 16620018) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/oqpEqz5n"],
 			"uploadDate":"2024-12-05T23:00:00.000Z",
-			"fileSize":"3.7 GB"}
+			"fileSize":"3.7 GB"},
+			{
+			"title":"Buckshot Roulette (v2.1.0) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/wwxcLo"],
+			"uploadDate":"2024-12-05T23:00:00.000Z",
+			"fileSize":"832.0 MB"},
+			{
+			"title":"Resident Evil 2 (Build 8814181) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/qZ9VBM"],
+			"uploadDate":"2024-12-05T23:00:00.000Z",
+			"fileSize":"23.7 GB"},
+			{
+			"title":"Automobilista 2: IMSA Track Pack (v1.6.3.0 + 24 DLC)",
+			"uris":["magnet:?xt=urn:btih:X7VHYVZIZNJ3BDFUVIDYN6S5HSW6L2P3&dn=Automobilista.2.IMSA.Track.Pack-RUNE&tr.1=http%3A%2F%2Fbt4.t-ru.org%2Fann&tr.2=http%3A%2F%2Fbt4.t-ru.org%2Fann&tr.3=http%3A%2F%2Fretracker.local%2Fannounce"],
+			"uploadDate":"2024-12-05T23:00:00.000Z",
+			"fileSize":"98.2 GB"},
+			{
+			"title":"Midori no Kaori (Early Access) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/g5cAix3b"],
+			"uploadDate":"2024-12-05T23:00:00.000Z",
+			"fileSize":"639 MB"},
+			{
+			"title":"Euro Truck Simulator 2 (v1.53.2.1 + 94 DLC) [ElAmigos]",
+			"uris":["https://pixeldrain.com/u/srAM5XSz"],
+			"uploadDate":"2024-12-05T23:00:00.000Z",
+			"fileSize":"14.5 GB"},
+			{
+			"title":"Battle Shapers (v1.0.0.9552) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/UQJGizLT"],
+			"uploadDate":"2024-12-05T23:00:00.000Z",
+			"fileSize":"12.3 GB"}
 		]
 	}
