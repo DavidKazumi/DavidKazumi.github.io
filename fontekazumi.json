@@ -2336,11 +2336,6 @@
 			"uploadDate":"2024-11-25T23:00:00.000Z",
 			"fileSize":"70 GB"},
 			{
-			"title":"Lost But Found (v1.0.4) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/cBqh74uY"],
-			"uploadDate":"2024-11-25T23:00:00.000Z",
-			"fileSize":"256 MB"},
-			{
 			"title":"The Strange City [RUNE]",
 			"uris":["https://pixeldrain.com/u/JH61zE5J"],
 			"uploadDate":"2024-11-26T23:00:00.000Z",
@@ -2874,6 +2869,16 @@
 			"title":"Skydances BEHEMOTH [Pre-Instalado]",
 			"uris":["https://gofile.io/d/TZ7kSV"],
 			"uploadDate":"2024-12-06T10:00:00.000Z",
-			"fileSize":"48.6 GB"}
+			"fileSize":"48.6 GB"},
+			{
+			"title":"Blazing Sails (Build 21062022 + Multiplayer) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/ZqM2eAUc"],
+			"uploadDate":"2024-12-06T10:00:00.000Z",
+			"fileSize":"6.5 GB"},
+			{
+			"title":"Dragon Eclipse (v1.0.0) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/xQzzDwFX"],
+			"uploadDate":"2024-12-06T10:00:00.000Z",
+			"fileSize":"993 MB"}
 		]
 	}
