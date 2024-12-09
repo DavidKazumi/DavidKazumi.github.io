@@ -1436,11 +1436,6 @@
 			"uploadDate":"2024-11-09T23:00:00.000Z",
 			"fileSize":"13 GB"},
 			{
-			"title":"Until Dawn (v1.06 + 20 Idiomas) [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:RPGOVLO56VDS24Q43OC36JEQEZTBZJZS&dn=Until%20Dawn%20(2015-2024)&tr.1=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.2=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.3=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr.4=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr.5=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.6=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.7=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr.8=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr.9=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr.10=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr.11=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.12=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr.13=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr.14=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr.15=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce"],
-			"uploadDate":"2024-11-09T23:00:00.000Z",
-			"fileSize":"59.4 GB"},
-			{
 			"title":"Horizon Zero Dawn Remastered (v1.1.42 + 20 Idiomas) [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:DKUOE7W5CM7QYIYVUNF56G4Q5RZRL6IH&dn=Horizon%20Zero%20Dawn%20Remastered&tr.1=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.2=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.3=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr.4=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.5=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.6=http%3A%2F%2Ftr5.ysagin.top%3A80%2F"],
 			"uploadDate":"2024-11-09T23:00:00.000Z",
@@ -2879,6 +2874,51 @@
 			"title":"Dragon Eclipse (v1.0.0) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/xQzzDwFX"],
 			"uploadDate":"2024-12-06T10:00:00.000Z",
-			"fileSize":"993 MB"}
+			"fileSize":"993 MB"},
+			{
+			"title":"Caves of Qud (v1.0) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/az4hGz9D"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"2.2 GB"},
+			{
+			"title":"Diesel Legacy: The Brazen Age [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/wUyiSkwr"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"3.5 GB"},
+			{
+			"title":"Dome Keeper (v4.2.0) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/6TDLrwHK"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"1.4 GB"},
+			{
+			"title":"Pocket Bravery (v2.05) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/ufyN989s"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"5.4 GB"},
+			{
+			"title":"Potionomics (Build 16245907) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/3FcAfaim"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"3.6 GB"},
+			{
+			"title":"LOCKDOWN Protocol (v0.2.2+ Multiplayer) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/1v3KdXQM"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"1.8 GB"},
+			{
+			"title":"Potion Craft: Alchemist Simulator (v2.0.1.2) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/7sYtrYqi"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"1.2 GB"},
+			{
+			"title":"The Thing: Remastered (v1.02) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/wyAWnFoM"],
+			"uploadDate":"2024-12-09T10:00:00.000Z",
+			"fileSize":"2.4 GB"},
+			{
+			"title":"Until Dawn (v1.08 + 20 Idiomas) [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:6NPCBLPIN3XUIYOALEP64ZM33Z2BLB2K&dn=Until%20Dawn%20(2015-2024)&tr.1=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.2=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.3=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr.4=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr.5=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.6=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.7=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr.8=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.9=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr.10=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr.11=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr.12=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr.13=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr.14=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr.15=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr.16=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr.17=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr.18=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr.19=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr.20=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr.21=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce"],
+			"uploadDate":"2024-11-09T23:00:00.000Z",
+			"fileSize":"59.5 GB"}
 		]
 	}
