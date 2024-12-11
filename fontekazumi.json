@@ -2506,11 +2506,6 @@
 			"uploadDate":"2024-11-29T23:00:00.000Z",
 			"fileSize":"3.8 GB"},
 			{
-			"title":"Nuclear Nightmare (v1.4.0 + Coop) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/6mx1csLC"],
-			"uploadDate":"2024-11-29T23:00:00.000Z",
-			"fileSize":"8 GB"},
-			{
 			"title":"Grounded (v1.4.6.4706 + Co-op) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/Hf4OlD"],
 			"uploadDate":"2024-11-29T23:00:00.000Z",
@@ -2766,11 +2761,6 @@
 			"uploadDate":"2024-12-05T10:00:00.000Z",
 			"fileSize":"639 MB"},
 			{
-			"title":"Euro Truck Simulator 2 (v1.53.2.1 + 94 DLC) [ElAmigos]",
-			"uris":["https://pixeldrain.com/u/srAM5XSz"],
-			"uploadDate":"2024-12-05T10:00:00.000Z",
-			"fileSize":"14.5 GB"},
-			{
 			"title":"Battle Shapers (v1.0.0.9552) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/UQJGizLT"],
 			"uploadDate":"2024-12-05T10:00:00.000Z",
@@ -2780,11 +2770,6 @@
 			"uris":["https://gofile.io/d/4VTGmZ"],
 			"uploadDate":"2024-12-06T10:00:00.000Z",
 			"fileSize":"21.1 GB"},
-			{
-			"title":"RAILROADS Online! (v1.0 + 2 DLCS) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/ZjSQ7r"],
-			"uploadDate":"2024-12-06T10:00:00.000Z",
-			"fileSize":"18.4 GB"},
 			{
 			"title":"Highway Police Simulator (Build 16642883) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/4VTGmZ"],
@@ -2984,6 +2969,41 @@
 			"title":"I Am Cat VR (Build 16645333) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/v8ShpH"],
 			"uploadDate":"2024-12-10T23:00:00.000Z",
-			"fileSize":"1.6 GB"}
+			"fileSize":"1.6 GB"},
+			{
+			"title":"MiSide (Build 16702566) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/47PrRYV4"],
+			"uploadDate":"2024-12-10T23:00:00.000Z",
+			"fileSize":"990 MB"},
+			{
+			"title":"VOIN (Build 16700784) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/47PrRYV4"],
+			"uploadDate":"2024-12-10T23:00:00.000Z",
+			"fileSize":"1.4 GB"},
+			{
+			"title":"Ballionaire (Build 16683121) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/Bp99Nvhj"],
+			"uploadDate":"2024-12-10T23:00:00.000Z",
+			"fileSize":"237 MB"},
+			{
+			"title":"Fast Food Simulator (Build 16695211) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/bPjTimQo"],
+			"uploadDate":"2024-12-10T23:00:00.000Z",
+			"fileSize":"4.4 GB"},
+			{
+			"title":"Nuclear Nightmare (v1.4.4) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/SUXnUkth"],
+			"uploadDate":"2024-12-11T23:00:00.000Z",
+			"fileSize":"7.8 GB"},
+			{
+			"title":"Euro Truck Simulator 2 (v1.53.2.5s) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/iNAs24"],
+			"uploadDate":"2024-12-11T10:00:00.000Z",
+			"fileSize":"33.1 GB"},
+			{
+			"title":"RAILROADS Online! (v0.10.0.0.0) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/ttJmwb"],
+			"uploadDate":"2024-12-11T10:00:00.000Z",
+			"fileSize":"18.3 GB"}
 		]
 	}
