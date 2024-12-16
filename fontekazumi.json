@@ -296,11 +296,6 @@
 			"uploadDate":"2024-10-07T23:00:00.000Z",
 			"fileSize":"7.3 GB"},
 			{
-			"title":"TEKKEN 8",
-			"uris":["magnet:?xt=urn:btih:04AE87A3BDD539EC180D64E22B0CFA1AE9B17A9C&dn=TEKKEN.8.v1.08.01.REPACK-KaOs&tr=udp%3A%2F%2Fopentor.net%3A6969&tr=++++udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=++++http%3A%2F%2Ftracker.gbitt.info%3A80%2Fannounce&tr=++++udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=++++http%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=++++udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=++++udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=++++udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=++++udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=++++udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=++++https%3A%2F%2Ftracker.tamersunion.org%3A443%2Fannounce&tr=++++http%3A%2F%2Fopen.acgnxtracker.com%3A80%2Fannounce&tr=++++udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=++++udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce"],
-			"uploadDate":"2024-10-07T23:00:00.000Z",
-			"fileSize":"77.4 GB"},
-			{
 			"title":"Microsoft Flight Simulator 40th Anniversary Edition",
 			"uris":["magnet:?xt=urn:btih:A33NPX56DFXACJWB4EB75XBATOKBTMZT&dn=Microsoft%20Flight%20Simulator%20by%20xatab&tr.1=udp%3A%2F%2Fopentor.org%3A2710&tr.2=udp%3A%2F%2Fopentor.org%3A2710&tr.3=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr.4=udp%3A%2F%2Ftracker.publicbt.com%3A80%2Fannounc&tr.5=http%3A%2F%2Fretracker.local%2Fannounce&tr.6=http%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce&tr.7=http%3A%2F%2Ftracker2.wasabii.com.tw%3A6969%2Fannounce&tr.8=http%3A%2F%2Ftracker.grepler.com%3A6969%2Fannounce&tr.9=http%3A%2F%2F125.227.35.196%3A6969%2Fannounce&tr.10=http%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr.11=http%3A%2F%2F87.248.186.252%3A8080%2Fannounce&tr.12=http%3A%2F%2F210.244.71.25%3A6969%2Fannounce&tr.13=http%3A%2F%2F46.4.109.148%3A6969%2Fannounce&tr.14=udp%3A%2F%2F46.148.18.250%3A2710&tr.15=http%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr.16=udp%3A%2F%2F%5B2001%3A67c%3A28f8%3A92%3A%3A1111%3A1%5D%3A2710&tr.17=udp%3A%2F%2Fipv6.leechers-paradise.org%3A6969"],
 			"uploadDate":"2024-10-07T23:00:00.000Z",
@@ -3174,6 +3169,11 @@
 			"title":"TankHead [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/8SSmnAND"],
 			"uploadDate":"2024-12-15T23:00:00.000Z",
-			"fileSize":"32.8 GB"}
+			"fileSize":"32.8 GB"},
+			{
+			"title":"TEKKEN 8: Ultimate Edition (v1.08.01 + Todas DLCS) [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:c5e0fa34914178f0dfc5a0d24a190eda30252c08&dn=TEKKEN%208%20-%20Ultimate%20Edition%20%5BSteam-Rip%5D%20by%20Ksenia&tr=http%3A%2F%2Fbt.piratbit.club%2F00075796959cce478c223f3b7c060f95%2Fannounce"],
+			"uploadDate":"2024-12-15T23:00:00.000Z",
+			"fileSize":"109.6 GB"}
 		]
 	}
