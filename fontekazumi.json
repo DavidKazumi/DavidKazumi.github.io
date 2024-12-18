@@ -1961,11 +1961,6 @@
 			"uploadDate":"2024-11-19T23:00:00.000Z",
 			"fileSize":"14.4 GB"},
 			{
-			"title":"Farming Simulator 25 (v1.2.1.0 + Co-op) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/s54Mie"],
-			"uploadDate":"2024-11-19T23:00:00.000Z",
-			"fileSize":"23.3 GB"},
-			{
 			"title":"Pizza Tower (v1.1.271) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/DVkGqPyH"],
 			"uploadDate":"2024-11-19T23:00:00.000Z",
@@ -2721,11 +2716,6 @@
 			"uploadDate":"2024-12-06T10:00:00.000Z",
 			"fileSize":"39.1 GB"},
 			{
-			"title":"Indiana Jones and the Great Circle: Premium Edition [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:BDYNHG5RJYXW5QVYUIOHDORAREAW65IL&dn=Indiana.Jones.and.the.Great.Circle.Premium.Edition-InsaneRamZes&tr.1=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.2=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.3=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr.4=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.5=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.6=http%3A%2F%2Ftr5.ysagin.top%3A80%2F&tr.7=https%3A%2F%2Ftr6.ysagin.top%3A443%2F"],
-			"uploadDate":"2024-12-06T10:00:00.000Z",
-			"fileSize":"114.6 GB"},
-			{
 			"title":"Lossless Scaling 2.12",
 			"uris":["https://pixeldrain.com/u/RDYjeLLm"],
 			"uploadDate":"2024-12-06T10:00:00.000Z",
@@ -3294,6 +3284,16 @@
 			"title":"Sheltered (v1.9) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/fwb4TD8o"],
 			"uploadDate":"2024-12-18T23:00:00.000Z",
-			"fileSize":"301 MB"}
+			"fileSize":"301 MB"},
+			{
+			"title":"Indiana Jones and the Great Circle: Premium Edition (Build 16724393) [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:d37525ec932a3a6ae562f8c3a46f08665ade4840&dn=Indiana.Jones.and.the.Great.Circle.Premium.Edition-InsaneRamZes&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftr5.ysagin.top%3A80%2F&tr=https%3A%2F%2Ftr6.ysagin.top%3A443%2F"],
+			"uploadDate":"2024-12-18T10:00:00.000Z",
+			"fileSize":"114.5 GB"},
+			{
+			"title":"Farming Simulator 25 (v1.4.0.0 + Online) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/zQ86KV"],
+			"uploadDate":"2024-12-18T23:00:00.000Z",
+			"fileSize":"23.5 GB"}
 		]
 	}
