@@ -3111,11 +3111,6 @@
 			"uploadDate":"2024-12-14T23:00:00.000Z",
 			"fileSize":"1.2 GB"},
 			{
-			"title":"Cyberpunk 2077 (v2.2) [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:39dc6800c5fbf09610c4d2494c1e34974a2952de&dn=Cyberpunk%202077%20v.2.2%20%282020%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce"],
-			"uploadDate":"2024-12-14T23:00:00.000Z",
-			"fileSize":"151.7 GB"},
-			{
 			"title":"KLETKA (Build 16726073) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/qn4cEcrd"],
 			"uploadDate":"2024-12-15T23:00:00.000Z",
@@ -3284,6 +3279,11 @@
 			"title":"Assassin's Creed Mirage (v1.0.6) [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:89f3418db9428b1b368335dc0050d7774cd29d5d&dn=Assassins%20Creed%20Mirage&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftr5.ysagin.top%3A80%2F"],
 			"uploadDate":"2024-12-17T23:00:00.000Z",
-			"fileSize":"41.1 GB"}
+			"fileSize":"41.1 GB"},
+			{
+			"title":"Cyberpunk 2077 (v2.2) [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:39dc6800c5fbf09610c4d2494c1e34974a2952de&dn=Cyberpunk%202077%20v.2.2%20%282020%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce"],
+			"uploadDate":"2024-12-17T23:00:00.000Z",
+			"fileSize":"151.7 GB"}
 		]
 	}
