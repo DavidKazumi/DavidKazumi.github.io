@@ -1261,11 +1261,6 @@
 			"uploadDate":"2024-11-06T23:00:00.000Z",
 			"fileSize":"731.8 MB"},
 			{
-			"title":"Job Simulator (Apenas VR) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/V7rDTt"],
-			"uploadDate":"2024-11-06T23:00:00.000Z",
-			"fileSize":"810.5 MB"},
-			{
 			"title":"Paint the Town Red (v1.3.4) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/pc3mNZ"],
 			"uploadDate":"2024-11-07T23:00:00.000Z",
@@ -3449,6 +3444,11 @@
 			"title":"Life is Strange Remastered (Build 11330282) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/j5kL8KsN"],
 			"uploadDate":"2024-12-21T23:00:00.000Z",
-			"fileSize":"15.7 GB"}
+			"fileSize":"15.7 GB"},
+			{
+			"title":"Job Simulator VR (Build 5180952) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/qb85sq"],
+			"uploadDate":"2024-12-21T23:00:00.000Z",
+			"fileSize":"859.7 MB"}
 		]
 	}
