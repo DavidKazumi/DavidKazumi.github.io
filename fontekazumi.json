@@ -1421,11 +1421,6 @@
 			"uploadDate":"2024-11-10T23:00:00.000Z",
 			"fileSize":"8.7 GB"},
 			{
-			"title":"CarX Street [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:EQNHPHO7Z3IA5QN4NDXB3EQMELILCTZX&dn=CarX%20Street%20(2024)&tr.1=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.2=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr.3=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr.4=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr.5=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.6=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.7=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr.8=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr.9=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr.10=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr.11=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr.12=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr.13=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr.14=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr.15=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce"],
-			"uploadDate":"2024-11-10T23:00:00.000Z",
-			"fileSize":"15.8 GB"},
-			{
 			"title":"House Flipper 2: Bewitching Renovations (v1.5.1) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/ivUjkn"],
 			"uploadDate":"2024-11-11T23:00:00.000Z",
@@ -3499,6 +3494,16 @@
 			"title":"Lossless Scaling 2.12.1",
 			"uris":["https://pixeldrain.com/u/DqgSr1ZE"],
 			"uploadDate":"2024-12-22T10:00:00.000Z",
-			"fileSize":"1.8 MB"}
+			"fileSize":"1.8 MB"},
+			{
+			"title":"CarX Street (v1.3.0) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/hsol0J"],
+			"uploadDate":"2024-12-23T23:00:00.000Z",
+			"fileSize":"16.7 GB"},
+			{
+			"title":"Zort (v0.2.6 + Online) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/cbkjcBVQ"],
+			"uploadDate":"2024-12-23T10:00:00.000Z",
+			"fileSize":"2 GB"}
 		]
 	}
