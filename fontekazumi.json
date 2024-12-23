@@ -1596,11 +1596,6 @@
 			"uploadDate":"2024-11-15T23:00:00.000Z",
 			"fileSize":"39.1 GB"},
 			{
-			"title":"Hollow Knight [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/wPF7CzaD"],
-			"uploadDate":"2024-11-15T23:00:00.000Z",
-			"fileSize":"1.49 GB"},
-			{
 			"title":"Grand Theft Auto V [Pre-Instalado]",
 			"uris":["https://gofile.io/d/u9nilv"],
 			"uploadDate":"2024-11-15T23:00:00.000Z",
@@ -3514,6 +3509,11 @@
 			"title":"A Quiet Place: The Road Ahead (v1.1.0) [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:fd43142385cf1f4e80a4a24f90f6775edb68391a&dn=A%20Quiet%20Place%20The%20Road%20Ahead%20%282024%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce"],
 			"uploadDate":"2024-12-23T23:00:00.000Z",
-			"fileSize":"37.6 GB"}
+			"fileSize":"37.6 GB"},
+			{
+			"title":"Hollow Knight (1.5.78.11833) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/wPF7CzaD"],
+			"uploadDate":"2024-12-23T23:00:00.000Z",
+			"fileSize":"1.4 GB"}
 		]
 	}
