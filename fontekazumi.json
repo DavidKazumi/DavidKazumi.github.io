@@ -3529,6 +3529,11 @@
 			"title":"The Jackbox Party Pack 10 (Torrent)",
 			"uris":["magnet:?xt=urn:btih:2cedc83213e3751ed2f1fdce29c009e2923e4dad&dn=The%20Jackbox%20Party%20Pack%2010%20b500%20by%20Pioneer&tr=udp%3A%2F%2Fopentor.net%3A6969&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=http%3A%2F%2Fretracker.local%2Fannounce&tr=http%3A%2F%2Ftracker.grepler.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Fh4.trakx.nibba.trade%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"],
 			"uploadDate":"2024-12-24T23:00:00.000Z",
-			"fileSize":"2.2 GB"}
+			"fileSize":"2.2 GB"},
+			{
+			"title":"Atomic Heart [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:6df1940385a63809c7c4d44e95e16b88b1710bf7&dn=Atomic%20Heart%20Dev%20Build&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann"],
+			"uploadDate":"2024-12-24T23:00:00.000Z",
+			"fileSize":"79.9 GB"}
 		]
 	}
