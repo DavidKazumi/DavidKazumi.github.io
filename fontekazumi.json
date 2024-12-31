@@ -186,11 +186,6 @@
 			"uploadDate":"2024-10-03T23:00:00.000Z",
 			"fileSize":"8.8 GB"},
 			{
-			"title":"VLADiK BRUTAL",
-			"uris":["magnet:?xt=urn:btih:HYSO7NCQMNDEDE2KFJTRWX62YJGWCJUN&dn=VLADiK.BRUTAL-DOGE&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann"],
-			"uploadDate":"2024-10-04T23:00:00.000Z",
-			"fileSize":"13.2 GB"},
-			{
 			"title":"Dwarven Realms",
 			"uris":["magnet:?xt=urn:btih:PFLUJD4CK4DEETT4IEEGBM36RN5OJ6JT&dn=Dwarven.Realms-TENOKE&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann"],
 			"uploadDate":"2024-10-04T23:00:00.000Z",
@@ -3789,6 +3784,21 @@
 			"title":"Hob (V1.17.3.0) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/t5Uamci2"],
 			"uploadDate":"2024-12-31T23:00:00.000Z",
-			"fileSize":"1.9 GB"}
+			"fileSize":"1.9 GB"},
+			{
+			"title":"Epic Chef [Pre-Instalado]",
+			"uris":["https://gofile.io/d/VuIMg7"],
+			"uploadDate":"2024-12-31T23:00:00.000Z",
+			"fileSize":"3.8 GB"},
+			{
+			"title":"Gym Simulator 24 (v1.1) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/2t1s7mrC"],
+			"uploadDate":"2024-12-31T23:00:00.000Z",
+			"fileSize":"3.2 GB"},
+			{
+			"title":"VLADiK BRUTAL (v1.0.3.7) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/FgQZx5"],
+			"uploadDate":"2024-12-31T23:00:00.000Z",
+			"fileSize":"14.3 GB"}
 		]
 	}
