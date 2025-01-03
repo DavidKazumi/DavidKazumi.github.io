@@ -1,0 +1,131 @@
+body {
+
+    background-color: #181818; /* Dark gray background */
+  
+    color: #fff; /* White text */
+  
+    font-family: sans-serif; /* Default font */
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+    min-height: 100vh;
+  
+    margin: 0;
+  
+  }
+  
+  
+  .container {
+  
+    background-color: #282c34; /* Darker gray container */
+  
+    border-radius: 10px;
+  
+    padding: 30px;
+  
+    text-align: center;
+  
+    max-width: 600px;
+  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  
+  }
+  
+  
+  h1 {
+  
+    font-size: 2.5rem;
+  
+    margin-bottom: 15px;
+  
+  }
+  
+  
+  h2 {
+  
+    font-size: 1.5rem;
+  
+    margin-top: 30px;
+  
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  p {
+  
+    line-height: 1.6;
+  
+    margin-bottom: 20px;
+  
+  }
+  
+  
+  a {
+  
+    color: #007bff; /* Blue link color */
+  
+    text-decoration: none;
+  
+  }
+  
+  
+  a:hover {
+  
+    text-decoration: underline;
+  
+  }
+  
+  
+  .buttons {
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    gap: 15px;
+  
+    margin-top: 20px;
+  
+  }
+  
+  
+  button {
+  
+    background-color: #007bff; /* Blue button background */
+  
+    color: #fff;
+  
+    border: none;
+  
+    padding: 10px 20px;
+  
+    border-radius: 5px;
+  
+    cursor: pointer;
+  
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  
+  }
+  
+  
+  button:hover {
+  
+    background-color: #0056b3; /* Darker blue on hover */
+  
+  }
+  
+  
+  .language-dropdown {
+  
+    position: absolute;
+  
+    top: 10px;
+
+  }
