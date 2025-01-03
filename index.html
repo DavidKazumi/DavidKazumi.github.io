@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kazumi Fonte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Montserrat';
+    }
+
+    body {
+      background-image: linear-gradient(230deg,#23262f,#1f2129,#1d1f26,#1b1d23,#16191d,#141619,#121417 60%,#101114 70% 80%,#0d0f11 90%,#0b0c0e);
+      color: #ffffff;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header {
+      padding-top: 80px;
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 300;
+      color: #d1d1d1;
+      margin-bottom: 20px;
+      margin-top: 5px;
+    }
+
+    .content {
+      margin: 10px 0px 35px 0px; 
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .content button {
+      background-color: #3b3f4b;
+      color: #ffffff;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: transform 0.2s, background-color 0.3s;
+    }
+
+    .content button:hover {
+      background-color: #505360;
+      transform: scale(1.05);
+    }
+
+    .info {
+      max-width: 800px;
+      margin: 20px auto 40px;
+      padding: 20px;
+      background-color: rgba(34, 36, 43, 0.9);
+      border-radius: 10px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .info h3 {
+      text-align: left;
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+
+    .info p {
+      margin-bottom: 15px;
+      word-spacing: -0.05rem;
+      text-align: left;
+      font-weight: 500;
+    }
+
+    footer {
+      padding: 15px;
+      font-size: 0.9rem;
+      color: #aaaaaa;
+    }
+
+    .language-selector {
+      margin-top: 20px;
+      text-align: right;
+      margin-right: 20px;
+    }
+
+    .language-selector select {
+      padding: 5px;
+      border: none;
+      background-color: #3b3f4b;
+      color: #ffffff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    a:-webkit-any-link {
+      color: #a3a9ff;
+    }
+  </style>
+  <script>
+
+    function copiarLink() {
+      navigator.clipboard.writeText("https://davidkazumi.github.io/fontekazumi.json");
+      alert("Link Copied!");
+    }
+
+    function abrirHydra() {
+      window.open("hydralauncher://install-source?urls=https://davidkazumi.github.io/fontekazumi.json");
+    }
+
+    function pedidopraFonte() {
+      window.open("https://forms.gle/JHuiftDj5fqJXP7n8");
+    }
+  </script>
+  </div>
+
+  <header id="title">Kazumi Source</header>
+
+  <div class="content">
+    <button id="addBtn" onclick="abrirHydra()">Adicionar ao Hydra</button>
+    <button id="copyBtn" onclick="copiarLink()">Copiar Link</button>
+    <button id="addBtn" onclick="pedidopraFonte()">Pedir um jogo pra fonte</button>
+  </div>
+
+  <div class="info">
+    <h3 id="sourceHeader">A minha fonte</h3>
+    <p id="sourceInfo">Eu criei esta fonte com o intuito de ajudar a comunidade a ter um acesso facilitado a jogos no launcher do Hydra ao fornecer versões pré-instaladas desses mesmos jogos, eu aceito pedidos de jogos pra se colocar na fonte então se tiver algum pedido não sinta vergonha de charmar o \"DavidKazumi\" no discord.</p>
+
+    <footer id="footer">&copy; 2025 Kazumi Source (Baseado no HTML criado por Shisuys, todos os créditos vão a ele)</footer>
+</body>
+</html>
