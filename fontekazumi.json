@@ -3791,11 +3791,6 @@
 			"uploadDate":"2025-01-03T23:00:00.000Z",
 			"fileSize":"4.9 GB"},
 			{
-			"title":"Grand Theft Auto V (v1.69) [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:54384a97c83ff0486ea0ab99d07dd8f40e92b627&dn=Grand%20Theft%20Auto%20V%20%5BSteam%5D%20%282015%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce"],
-			"uploadDate":"2025-01-03T23:00:00.000Z",
-			"fileSize":"114.1 GB"},
-			{
 			"title":"Lies of P (v1.5.0.0 + 2 DLCs) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/LtD5BMEh"],
 			"uploadDate":"2025-01-03T23:00:00.000Z",
@@ -4074,6 +4069,21 @@
 			"title":"The Long Drive (v2024.10.17b) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/UVhBT1BN"],
 			"uploadDate":"2025-01-09T23:00:00.000Z",
-			"fileSize":"4.8 GB"}
+			"fileSize":"4.8 GB"},
+			{
+			"title":"Empires of the Undergrowth (v1.000419) [Pre-Instalado]",
+			"uris":["https://pixeldrain.com/u/p9g1oB1v"],
+			"uploadDate":"2025-01-09T23:00:00.000Z",
+			"fileSize":"449 MB"},
+			{
+			"title":"Vertigo 2 [Pre-Instalado]",
+			"uris":["https://gofile.io/d/fsyjEK"],
+			"uploadDate":"2025-01-09T23:00:00.000Z",
+			"fileSize":"5.5 GB"},
+			{
+			"title":"Grand Theft Auto V (v1.70) [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:54384a97c83ff0486ea0ab99d07dd8f40e92b627&dn=Grand%20Theft%20Auto%20V%20%5BSteam%5D%20%282015%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce"],
+			"uploadDate":"2025-01-09T23:00:00.000Z",
+			"fileSize":"114.1 GB"}
 		]
 	}
