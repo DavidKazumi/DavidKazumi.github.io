@@ -3851,11 +3851,6 @@
 			"uploadDate":"2025-01-08T23:00:00.000Z",
 			"fileSize":"3.3 GB"},
 			{
-			"title":"Call of Duty®: Modern Warfare® II (v04.07.24) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/eoToed"],
-			"uploadDate":"2025-01-08T23:00:00.000Z",
-			"fileSize":"28.5 GB"},
-			{
 			"title":"Steep (v1.23.7640008) [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:4c19e096951f27be66f748e4754460d9853c84ba&dn=Steep-InsaneRamZes&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"],
 			"uploadDate":"2025-01-08T23:00:00.000Z",
@@ -4511,9 +4506,14 @@
 			"uploadDate":"2025-01-22T10:00:00.000Z",
 			"fileSize":"14.4 GB"},
 			{
-			"title":"WWE 2K23 (v1.20 + 13 DLCS) [Pre-Instalado]",
+			"title":"WWE 2K23 - Deluxe Edition (v1.20 + 13 DLCS) [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:f1778dad82b7a09c5b8e621226dccdc285cf4295&dn=WWE.2K23.Portable&tr=http%3A%2F%2Fbt2.t-ru.org%2Fann"],
 			"uploadDate":"2025-01-22T10:00:00.000Z",
-			"fileSize":"79.9 GB"}
+			"fileSize":"79.9 GB"},
+			{
+			"title":"Call of Duty®: Modern Warfare® (2019) [Pre-Instalado]",
+			"uris":["https://gofile.io/d/pa67DX"],
+			"uploadDate":"2025-01-22T10:00:00.000Z",
+			"fileSize":"88 GB"}
 		]
 	}
