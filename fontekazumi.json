@@ -1316,11 +1316,6 @@
 			"uploadDate":"2024-11-13T23:00:00.000Z",
 			"fileSize":"11.6 GB"},
 			{
-			"title":"V Rising (v1.0.10.1 + 7 DLC) [RUNE]",
-			"uris":["https://gofile.io/d/2FAURy"],
-			"uploadDate":"2024-11-14T23:00:00.000Z",
-			"fileSize":"7.1 GB"},
-			{
 			"title":"Call of the Wild The Angler – Japan Fishing Reserve (v2.0) [RUNE]",
 			"uris":["magnet:?xt=urn:btih:STCKBB7URVRJBBBKG7DSCLILYIPAAFCT&dn=Call.of.the.Wild.The.Angler.Japan.Fishing.Reserve-RUNE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"],
 			"uploadDate":"2024-11-14T23:00:00.000Z",
@@ -4564,6 +4559,11 @@
 			"title":"TCG Card Shop Simulator (Build 17100544) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/ldeF56"],
 			"uploadDate":"2025-01-24T10:00:00.000Z",
-			"fileSize":"1.4 GB"}
+			"fileSize":"1.4 GB"},
+			{
+			"title":"V Rising (v1.0.10.2) [Pre-Instalado]",
+			"uris":["magnet:?xt=urn:btih:5d88fabf1e6e169e0a6a82bdda0a1831d274cc88&dn=V%20Rising%20%282024%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dump.cl%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.bittor.pw%3A1337%2Fannounce&tr=udp%3A%2F%2Ftamas3.ynh.fr%3A6969%2Fannounce&tr=udp%3A%2F%2Frun.publictracker.xyz%3A6969%2Fannounce&tr=udp%3A%2F%2Fretracker01-msk-virt.corbina.net%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.dstud.io%3A6969%2Fannounce&tr=udp%3A%2F%2Fnew-line.net%3A6969%2Fannounce&tr=udp%3A%2F%2Fmoonburrow.club%3A6969%2Fannounce&tr=udp%3A%2F%2Fleet-tracker.moe%3A1337%2Fannounce"],
+			"uploadDate":"2025-01-24T10:00:00.000Z",
+			"fileSize":"8.3 GB"}
 		]
 	}
