@@ -3671,11 +3671,6 @@
 			"uploadDate":"2025-01-05T23:00:00.000Z",
 			"fileSize":"4.9 GB"},
 			{
-			"title":"Hogwarts Legacy (v1117238) [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:ac42142579f019b8e4173838a0545979c47ee386&dn=Hogwarts%20Legacy&tr=http%3A%2F%2Fretracker.local%2Fannounce&tr=udp%3A%2F%2Fopentor.org%3A2710&tr=udp%3A%2F%2Ftracker.fatkhoala.org%3A13760%2Fannounce&tr=udp%3A%2F%2Ftracker.tallpenguin.org%3A15790%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=http%3A%2F%2Fbt.xbtrutor.com%3A2710%2Fannounce"],
-			"uploadDate":"2025-01-06T23:00:00.000Z",
-			"fileSize":"75.7 GB"},
-			{
 			"title":"Chicken Feet [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/WbuuDMYP"],
 			"uploadDate":"2025-01-06T23:00:00.000Z",
@@ -4779,6 +4774,11 @@
 			"title":"Red Dead Redemption (v1.0.42.46611) [Pre-Instalado] ",
 			"uris":["https://www.mediafire.com/file/86ldhltcxbdw82o/Red.Dead.Redemption.v1.0.42.46611.zip/file"],
 			"uploadDate":"2025-01-26T10:00:00.000Z",
-			"fileSize":"8.3 GB"}
+			"fileSize":"8.3 GB"},
+			{
+			"title":"Hogwarts Legacy (v1117238) [Pre-Instalado] ",
+			"uris":["magnet:?xt=urn:btih:cc99aa0ceb6b17262288473c1d5fc2e626326990&dn=Hogwarts.Legacy.Deluxe.Edition-EMPRESS&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentracker.i2p.rocks%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fcoppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.zer0day.to%3A1337%2Fannounce"],
+			"uploadDate":"2025-01-27T10:00:00.000Z",
+			"fileSize":"88.2 GB"}
 		]
 	}
