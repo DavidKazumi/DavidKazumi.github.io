@@ -1406,11 +1406,6 @@
 			"uploadDate":"2024-11-15T23:00:00.000Z",
 			"fileSize":"6 GB"},
 			{
-			"title":"Project Zomboid (v41.78.16 + Co-op) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/4WiuFvXg"],
-			"uploadDate":"2024-11-15T23:00:00.000Z",
-			"fileSize":"2.7 GB"},
-			{
 			"title":"Terraria (v1.4.4.9 + Co-op) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/a9HbecB5"],
 			"uploadDate":"2024-11-15T23:00:00.000Z",
@@ -4854,6 +4849,11 @@
 			"title":"FINAL FANTASY XV WINDOWS EDITION (com as DLCS) ",
 			"uris":["magnet:?xt=urn:btih:c2c2bf01ba026d52be2ae11b3b557dcd8547a13c&dn=FINAL%20FANTASY%20XV%20by%20xatab&tr=udp%3A%2F%2Fopentor.net%3A6969&tr=http%3A%2F%2Fretracker.local%2Fannounce&tr=http%3A%2F%2Ftracker.grepler.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Fh4.trakx.nibba.trade%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"],
 			"uploadDate":"2025-01-29T10:00:00.000Z",
-			"fileSize":"68.8 GB"}
+			"fileSize":"68.8 GB"},
+			{
+			"title":"Project Zomboid (Build 17147957 + Co-op) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/OiATbv"],
+			"uploadDate":"2025-01-29T10:00:00.000Z",
+			"fileSize":"5.3 GB"}
 		]
 	}
