@@ -4431,16 +4431,6 @@
 			"uploadDate":"2025-01-23T10:00:00.000Z",
 			"fileSize":"5.2 GB"},
 			{
-			"title":"Hades II (v0.103687) [Pre-Instalado] ",
-			"uris":["https://pixeldrain.com/u/QiaoHPh9"],
-			"uploadDate":"2025-01-24T10:00:00.000Z",
-			"fileSize":"5.4 GB"},
-			{
-			"title":"Hades (v1.38290) [Pre-Instalado] ",
-			"uris":["https://pixeldrain.com/u/qT9bcxAn"],
-			"uploadDate":"2025-01-24T10:00:00.000Z",
-			"fileSize":"10.6 GB"},
-			{
 			"title":"NINJA GAIDEN 2 Black (v1.0.5.0) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/xRvxko"],
 			"uploadDate":"2025-01-24T10:00:00.000Z",
@@ -4854,6 +4844,16 @@
 			"title":"Project Zomboid (Build 17147957 + Co-op) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/OiATbv"],
 			"uploadDate":"2025-01-29T10:00:00.000Z",
-			"fileSize":"5.3 GB"}
+			"fileSize":"5.3 GB"},
+			{
+			"title":"Hades II (v0.103687) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/3GnhBq"],
+			"uploadDate":"2025-01-30T10:00:00.000Z",
+			"fileSize":"5.3 GB"},
+			{
+			"title":"Hades (v1.38290) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/BxD6Pa"],
+			"uploadDate":"2025-01-30T10:00:00.000Z",
+			"fileSize":"10.7 GB"}
 		]
 	}
