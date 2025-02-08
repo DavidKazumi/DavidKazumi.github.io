@@ -996,11 +996,6 @@
 			"uploadDate":"2024-11-08T23:00:00.000Z",
 			"fileSize":"19.3 GB"},
 			{
-			"title":"Enshrouded (Build 16299108 + Co-op) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/aiurRZ"],
-			"uploadDate":"2024-11-08T23:00:00.000Z",
-			"fileSize":"18 GB"},
-			{
 			"title":"Age of Wonders 4: Ways of War (v1.009.001.99091)",
 			"uris":["magnet:?xt=urn:btih:QBFGO2UGFO2DK36SIB5QH7VZP44ITXAY&dn=Age.of.Wonders.4.Ways.of.War-RUNE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"],
 			"uploadDate":"2024-11-08T23:00:00.000Z",
@@ -5094,6 +5089,16 @@
 			"title":"Ambulance Life: A Paramedic Simulator (Build 17163084 + 3 DLCs) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/3PudJp"],
 			"uploadDate":"2025-02-07T10:00:00.000Z",
-			"fileSize":"64.9 GB"}
+			"fileSize":"64.9 GB"},
+			{
+			"title":"Enshrouded (v2024.12.11 + Online) [Pre-Instalado] ",
+			"uris":["magnet:?xt=urn:btih:ba02d5a30c38ece0c33821a1942771750f8e3901&dn=Enshrouded-InsaneRamZes&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr=http%3A%2F%2Ftr2.ysagin.top%3A2715%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentor.org%3A2710"],
+			"uploadDate":"2025-02-08T10:00:00.000Z",
+			"fileSize":"30.7 GB"},
+			{
+			"title":"MONSTER HUNTER RISE (v16.0.2.0 + Todas as DLCs) [Pre-Instalado] ",
+			"uris":["magnet:?xt=urn:btih:e8bc631cea1e916770d4d026683aea11668990b9&dn=Monster.Hunter.Rise.Sunbreak-EMPRESS"],
+			"uploadDate":"2025-02-08T10:00:00.000Z",
+			"fileSize":"32.3 GB"}
 		]
 	}
