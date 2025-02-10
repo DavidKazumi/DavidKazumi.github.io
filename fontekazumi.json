@@ -761,11 +761,6 @@
 			"uploadDate":"2024-10-31T23:00:00.000Z",
 			"fileSize":"230 MB"},
 			{
-			"title":"Dungeon Defenders (v9.6.1) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/PX6wRw5R"],
-			"uploadDate":"2024-10-31T23:00:00.000Z",
-			"fileSize":"9.86 GB"},
-			{
 			"title":"The Vale: Shadow of the Crown [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/sWUvPKTD"],
 			"uploadDate":"2024-10-31T23:00:00.000Z",
@@ -2280,11 +2275,6 @@
 			"uris":["https://pixeldrain.com/u/6ogcE6fg"],
 			"uploadDate":"2024-12-09T10:00:00.000Z",
 			"fileSize":"4.2 GB"},
-			{
-			"title":"Vampire Hunters (v1.1.3) [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/bKuMgEdw"],
-			"uploadDate":"2024-12-09T23:00:00.000Z",
-			"fileSize":"1.9 GB"},
 			{
 			"title":"Uncle Chop’s Rocket Shop (Build 16658300) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/zuDvaDAS"],
@@ -5124,6 +5114,26 @@
 			"title":"Hellblade: Senua’s Sacrifice (Build 7800612) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/efpZCv"],
 			"uploadDate":"2025-02-09T10:00:00.000Z",
-			"fileSize":"13.8 GB"}
+			"fileSize":"13.8 GB"},
+			{
+			"title":"Stranded Deep (v1.0.38.0.29) [Pre-Instalado] ",
+			"uris":["https://pixeldrain.com/u/FwMxKc7n"],
+			"uploadDate":"2025-02-10T10:00:00.000Z",
+			"fileSize":"1.4 GB"},
+			{
+			"title":"Vampire Hunters (v1.2.0) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/5aQyFE"],
+			"uploadDate":"2025-02-10T10:00:00.000Z",
+			"fileSize":"2 GB"},
+			{
+			"title":"Dungeon Defenders (v10.1.0) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/JWnosB"],
+			"uploadDate":"2025-02-10T10:00:00.000Z",
+			"fileSize":"11 GB"},
+			{
+			"title":"Let’s Cook Together 2 (Build 17091294) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/TK1xqj"],
+			"uploadDate":"2025-02-10T10:00:00.000Z",
+			"fileSize":"1.4 GB"}
 		]
 	}
