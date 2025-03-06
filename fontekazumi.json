@@ -5781,11 +5781,6 @@
 			"uploadDate":"2025-03-04T23:00:00.000Z",
 			"fileSize":"7.2 GB"},
 			{
-			"title":"R.E.P.O. (v0.1.2) [Pre-Instalado] ",
-			"uris":["https://gofile.io/d/YgQPFA"],
-			"uploadDate":"2025-03-04T23:00:00.000Z",
-			"fileSize":"362.1 MB"},
-			{
 			"title":"King of Retail (v1.0.0.2) [Pre-Instalado] ",
 			"uris":["https://pixeldrain.com/u/8SiNTKKj"],
 			"uploadDate":"2025-03-04T23:00:00.000Z",
@@ -5829,6 +5824,11 @@
 			"title":"Orebound (Build 17588059) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/4mhX8I"],
 			"uploadDate":"2025-03-05T23:00:00.000Z",
-			"fileSize":"4.9 GB"}
+			"fileSize":"4.9 GB"},
+			{
+			"title":"R.E.P.O. (v0.1.2 + Online) [Pre-Instalado] ",
+			"uris":["magnet:?xt=urn:btih:352133838ba181328e27639e1f47864579a12678&dn=R.E.P.O&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337"],
+			"uploadDate":"2025-03-06T23:00:00.000Z",
+			"fileSize":"396.6 MB"}
 		]
 	}
