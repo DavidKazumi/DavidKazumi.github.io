@@ -2336,11 +2336,6 @@
 			"uploadDate":"2024-12-17T23:00:00.000Z",
 			"fileSize":"4 GB"},
 			{
-			"title":"South Park: The Fractured But Whole [Pre-Instalado]",
-			"uris":["https://pixeldrain.com/u/8BJHnRtm"],
-			"uploadDate":"2024-12-17T23:00:00.000Z",
-			"fileSize":"26.1 GB"},
-			{
 			"title":"SOUTH PARK: SNOW DAY (v1.0.7) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/xEzsB7c2"],
 			"uploadDate":"2024-12-17T23:00:00.000Z",
@@ -6139,6 +6134,11 @@
 			"title":"Kaiserpunk (Build 17798436 + 2 DLCs) [Pre-Instalado] ",
 			"uris":["https://datanodes.to/0sc3oa4mx2wj/KAISERPUNK-SteamGG.NET.zip"],
 			"uploadDate":"2025-03-22T23:00:00.000Z",
-			"fileSize":"10.8 GB"}
+			"fileSize":"10.8 GB"},
+			{
+			"title":"South Park: The Fractured But Whole - Gold Edition [Pre-Instalado] ",
+			"uris":["https://datanodes.to/kb28cs4r3y37/South_Park-The-Fractured-But-Whole-Gold_Editions.rar"],
+			"uploadDate":"2025-03-22T23:00:00.000Z",
+			"fileSize":"22.6 GB"}
 		]
 	}
