@@ -1346,11 +1346,6 @@
 			"uploadDate":"2024-11-18T23:00:00.000Z",
 			"fileSize":"1.6 GB"},
 			{
-			"title":"The Sims 4 Life and Death (v1.110.311.1020)",
-			"uris":["magnet:?xt=urn:btih:2XRVKVH2X33XTIACGJVTBOBRBTCKJN2A&dn=The.Sims.4.Life.and.Death-RUNE&tr=http%3A%2F%2Fbt3.t-ru.org%2Fann"],
-			"uploadDate":"2024-11-19T23:00:00.000Z",
-			"fileSize":"62.9 GB"},
-			{
 			"title":"Galaxy Burger (v1.2.1 + Online) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/Wfovsig1"],
 			"uploadDate":"2024-11-19T23:00:00.000Z",
@@ -6056,11 +6051,6 @@
 			"uploadDate":"2025-03-20T23:00:00.000Z",
 			"fileSize":"112.3 GB"},
 			{
-			"title":"BLEACH Rebirth of Souls Ultimate Edition [Instalador TENOKE] ",
-			"uris":["https://gofile.io/d/MlDzMl"],
-			"uploadDate":"2025-03-21T23:00:00.000Z",
-			"fileSize":"77.2 GB"},
-			{
 			"title":"Cookie Cutter (Build 17680734) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/HZfEgh"],
 			"uploadDate":"2025-03-21T23:00:00.000Z",
@@ -6114,6 +6104,26 @@
 			"title":"My Dream Setup (Build 17563724) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/4yAMFF"],
 			"uploadDate":"2025-03-21T23:00:00.000Z",
-			"fileSize":"1.5 GB"}
+			"fileSize":"1.5 GB"},
+			{
+			"title":"BLEACH Rebirth of Souls Ultimate Edition (v20250322) [Pre-Instalado] ",
+			"uris":["magnet:?xt=urn:btih:e84cb92442da5c4037df8d5ce0b12051faa729c3&dn=BLEACH.Rebirth.of.Souls.Ultimate.Edition-InsaneRamZes&tr=http%3A%2F%2Fbt4.t-ru.org%2Fann"],
+			"uploadDate":"2025-03-22T23:00:00.000Z",
+			"fileSize":"71.7 GB"},
+			{
+			"title":"The Sims 4 (v1.113.297.1020) [Pre-Instalado] ",
+			"uris":["magnet:?xt=urn:btih:2783e2fb758b897ac94e2a606260c3c37fe2e549&dn=The%20Sims%204&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce"],
+			"uploadDate":"2025-03-22T23:00:00.000Z",
+			"fileSize":"68.7 GB"},
+			{
+			"title":"Half-Life 2 RTX [Pre-Instalado] ",
+			"uris":["https://datanodes.to/ev3r87ysimvg/Half-Life-2-RTX.rar"],
+			"uploadDate":"2025-03-22T23:00:00.000Z",
+			"fileSize":"36.9 GB"},
+			{
+			"title":"Wreckfest 2 (v337132) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/BpsIEd"],
+			"uploadDate":"2025-03-22T23:00:00.000Z",
+			"fileSize":"12.7 GB"}
 		]
 	}
