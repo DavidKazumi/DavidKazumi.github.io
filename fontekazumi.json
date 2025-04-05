@@ -460,11 +460,7 @@
 			"uris":["https://gofile.io/d/OBjX0s"],
 			"uploadDate":"2024-10-22T23:00:00.000Z",
 			"fileSize":"892.7 MB"},
-			{
-			"title":"Raft (v1.09 + Co-op)",
-			"uris":["https://gofile.io/d/HQhyAT"],
-			"uploadDate":"2024-10-22T23:00:00.000Z",
-			"fileSize":"2.5 GB"},
+			
 			{
 			"title":"Shovel Knight Dig (v1.1.5)",
 			"uris":["https://gofile.io/d/EgsJUG"],
@@ -6251,11 +6247,6 @@
 			"uploadDate":"2025-04-03T23:00:00.000Z",
 			"fileSize":"115.79 GB"},
 			{
-			"title":"HASTE: Broken Worlds [Pre-Instalado] ",
-			"uris":["https://datanodes.to/0m90s7r7psfj/Haste.7z"],
-			"uploadDate":"2025-04-03T20:00:00.000Z",
-			"fileSize":"1.6 GB"},
-			{
 			"title":"Tom Clancy’s Splinter Cell Blacklist (v1.0.3) [Pre-Instalado] ",
 			"uris":["https://datanodes.to/4ztan3wpnv72/Tom-Clancy_s-Splinter-Cell-Blacklist.rar"],
 			"uploadDate":"2025-04-03T20:00:00.000Z",
@@ -6304,6 +6295,31 @@
 			"title":"Bloons TD 6 (v47.1) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/wOX63M"],
 			"uploadDate":"2025-04-05T20:00:00.000Z",
-			"fileSize":"1.8 GB"}
+			"fileSize":"1.8 GB"},
+			{
+			"title":"Raft (Build 17481012) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/p6Axhf"],
+			"uploadDate":"2025-04-05T20:00:00.000Z",
+			"fileSize":"3.0 GB"},
+			{
+			"title":"HASTE: Broken Worlds (Build 17983529) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/tjQjnB"],
+			"uploadDate":"2025-04-05T20:00:00.000Z",
+			"fileSize":"2.2 GB"},
+			{
+			"title":"This Bed We Made (Build 17678332) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/gq9l7m"],
+			"uploadDate":"2025-04-05T20:00:00.000Z",
+			"fileSize":"5.2 GB"},
+			{
+			"title":"Infection Free Zone (Build 17968692) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/C1xwIc"],
+			"uploadDate":"2025-04-05T20:00:00.000Z",
+			"fileSize":"4.8 GB"},
+			{
+			"title":"Everdream Valley (Build 17955683) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/65zIgI"],
+			"uploadDate":"2025-04-05T20:00:00.000Z",
+			"fileSize":"3.8 GB"}
 		]
 	}
