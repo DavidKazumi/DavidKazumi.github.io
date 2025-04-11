@@ -3292,11 +3292,6 @@
 			"uploadDate":"2025-01-12T10:00:00.000Z",
 			"fileSize":"15.4 GB"},
 			{
-			"title":"Stoneshard (v0.9.1.15) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/Qwj391"],
-			"uploadDate":"2025-01-12T10:00:00.000Z",
-			"fileSize":"588.7 MB"},
-			{
 			"title":"Golfie (v2.0.6) [Pre-Instalado]",
 			"uris":["https://gofile.io/d/FDBYkA"],
 			"uploadDate":"2025-01-12T10:00:00.000Z",
@@ -6460,6 +6455,11 @@
 			"title":"Have a Nice Death (v1.0.4.55150) [Pre-Instalado] ",
 			"uris":["https://www.mediafire.com/file/lnqv43ppnbngsij/Have.a.Nice.Death.v1.0.4.55150-P2P.zip/file"],
 			"uploadDate":"2025-04-10T20:00:00.000Z",
-			"fileSize":"1.77 GB"}
+			"fileSize":"1.77 GB"},
+			{
+			"title":"Stoneshard (Build 17969297) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/M0lWxA"],
+			"uploadDate":"2025-04-11T20:00:00.000Z",
+			"fileSize":"353.1 MB"}
 		]
 	}
