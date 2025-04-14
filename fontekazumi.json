@@ -3052,11 +3052,6 @@
 			"uploadDate":"2025-01-06T23:00:00.000Z",
 			"fileSize":"42.8 GB"},
 			{
-			"title":"WorldBox – God Simulator (senha: cs.rin.ru) [Pre-Instalado]",
-			"uris":["magnet:?xt=urn:btih:bd746f0f34ac36280d676ae83770d7395bba6293&dn=whatsinthebox.7z"],
-			"uploadDate":"2025-01-06T10:00:00.000Z",
-			"fileSize":"345.2 MB"},
-			{
 			"title":"Call of Duty: WWII - Digital Deluxe Edition (Build 7831931) [Pre-Instalado]",
 			"uris":["magnet:?xt=urn:btih:a07bd883905fb5e69509d6f161296d3f0587d656&dn=Call.of.Duty.WWII.Digital.Deluxe.Edition.Steam.Rip-InsaneRamZes&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr=http%3A%2F%2Ftr2.ysagin.top%3A2710%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Fopentor.org%3A2710"],
 			"uploadDate":"2025-01-06T23:00:00.000Z",
@@ -6540,6 +6535,11 @@
 			"title":"Marvel’s Spider-Man 2 Deluxe Edition (v1.408.0.0 + Todas as DLCs + Items Bonus PSN + 26 Idiomas) [Pre-Instalado] ",
 			"uris":["magnet:?xt=urn:btih:d73f27afd9fd3c9f1b4354a6075da2be061fb567&dn=Marvels%20Spider-Man%202%20%282023-2025%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce"],
 			"uploadDate":"2025-04-14T20:00:00.000Z",
-			"fileSize":"137.75 GB"}
+			"fileSize":"137.75 GB"},
+			{
+			"title":"WorldBox – God Simulator (v0.50.3) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/Pjxhle"],
+			"uploadDate":"2025-04-14T20:00:00.000Z",
+			"fileSize":"439.1 MB"}
 		]
 	}
