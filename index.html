@@ -1,134 +1,338 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kazumi Fonte</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9d4ff151a68f4a4782e924287c1b049b"}'></script>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Montserrat';
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kazumi Fonte</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Cloudflare Web Analytics -->
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js"
+      data-cf-beacon='{"token": "9d4ff151a68f4a4782e924287c1b049b"}'
+    ></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat";
+      }
 
-    body {
-      background-image: linear-gradient(230deg,#23262f,#1f2129,#1d1f26,#1b1d23,#16191d,#141619,#121417 60%,#101114 70% 80%,#0d0f11 90%,#0b0c0e);
-      color: #ffffff;
-      text-align: center;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
+      body {
+        background-image: linear-gradient(
+          230deg,
+          #23262f,
+          #1f2129,
+          #1d1f26,
+          #1b1d23,
+          #16191d,
+          #141619,
+          #121417 60%,
+          #101114 70% 80%,
+          #0d0f11 90%,
+          #0b0c0e
+        );
+        color: #ffffff;
+        text-align: center;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
 
-    header {
-      padding-top: 80px;
-      font-size: 2.5rem;
-      font-weight: 800;
-      letter-spacing: 1px;
-    }
+      header {
+        padding-top: 80px;
+        font-size: 2.5rem;
+        font-weight: 800;
+        letter-spacing: 1px;
+      }
 
-    .content {
-      margin: 10px 0px 35px 0px; 
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-    }
+      .content {
+        margin: 10px 0px 35px 0px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+      }
 
-    .content button {
-      background-color: #3b3f4b;
-      color: #ffffff;
-      border: none;
-      padding: 15px 30px;
-      font-size: 1.1rem;
-      cursor: pointer;
-      border-radius: 8px;
-      transition: transform 0.2s, background-color 0.3s;
-    }
+      .content button {
+        background-color: #3b3f4b;
+        color: #ffffff;
+        border: none;
+        padding: 15px 30px;
+        font-size: 1.1rem;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: transform 0.2s, background-color 0.3s;
+      }
 
-    .content button:hover {
-      background-color: #505360;
-      transform: scale(1.05);
-    }
+      .content button:hover {
+        background-color: #505360;
+        transform: scale(1.05);
+      }
 
-    .info {
-      max-width: 800px;
-      margin: -80px auto 40px;
-      padding: 20px;
-      background-color: rgba(34, 36, 43, 0.9);
-      border-radius: 10px;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-      line-height: 1.6;
-      text-align: justify;
-    }
+      .content button.donate {
+        background-color: #6a1b9a;
+        background-image: linear-gradient(45deg, #0070ba 50%, #ff5a00 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all 0.3s ease;
+      }
 
-    .info h3 {
-      text-align: left;
-      margin-bottom: 10px;
-      font-size: 1.2rem;
-      font-weight: 700;
-    }
+      .content button.donate:hover {
+        background-position: left bottom;
+        transform: scale(1.05);
+      }
 
-    .info p {
-      margin-bottom: 15px;
-      word-spacing: -0.05rem;
-      text-align: left;
-      font-weight: 500;
-    }
+      /* Modal de escolha */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.8);
+      }
 
-    footer {
-      padding: 15px;
-      font-size: 0.9rem;
-      color: #aaaaaa;
-    }
-    
-    a:-webkit-any-link {
-      color: #a3a9ff;
-    }
-  </style>
-  <script>
+      .modal-content {
+        background-color: #23262f;
+        margin: 15% auto;
+        padding: 20px;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 500px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        animation: modalopen 0.4s;
+      }
 
-    function copiarLink() {
-      navigator.clipboard.writeText("https://davidkazumi.github.io/fontekazumi.json");
-      alert("Link Copiado!");
-    }
+      @keyframes modalopen {
+        from {
+          opacity: 0;
+          transform: translateY(-50px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
 
-    function abrirHydra() {
-      window.open("hydralauncher://install-source?urls=https://davidkazumi.github.io/fontekazumi.json");
-    }
+      .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
 
-    function pedidopraFonte() {
-      window.open("https://form.jotform.com/251055259346054");
-    }
+      .modal-header h2 {
+        margin: 0;
+        color: #ffffff;
+      }
 
-    function doarPayPal() {
-      window.open("https://www.paypal.com/donate/?hosted_button_id=DF2DUYWWQM8TG");
-    }
-  </script>
-  </div>
+      .close {
+        color: #aaa;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+      }
 
-  <header id="title">Kazumi Source</header>
+      .close:hover {
+        color: #fff;
+      }
 
-  <div class="content">
-    <button id="addBtn" onclick="abrirHydra()">Adicionar ao Hydra</button>
-    <button id="copyBtn" onclick="copiarLink()">Copiar Link</button>
-    <button id="addBtn" onclick="pedidopraFonte()">Pedir um jogo pra fonte</button>
-    <button class="donate" onclick="doarPayPal()">Doar via PayPal</button>
-  </div>
+      .payment-options {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+      }
 
-  <div class="info">
-    <h3 id="fonteHeader">A Minha Fonte</h3>
-    <p id="fonteInfo">Eu criei esta fonte com o intuito de ajudar a comunidade a ter um acesso facilitado a jogos no launcher do Hydra ao fornecer versões pré-instaladas desses mesmos jogos, eu aceito pedidos de jogos pra se colocar na fonte então se tiver algum pedido basta clicar no botão de pedir um jogo que você será redirecionado para um formulário onde poderá pedir o jogo.</p>
-    <h3 id="linkHeader">Acerca dos Links</h3>
-    <p id="linkInfo">Eu uso maioritariamente links de sites como, <a href="https://gamdie.com/">Gamdie</a>, <a href="https://repack-games.com/">Repack-Games</a> & <a href="https://torrent-games.games/">Torrent-Games</a>. Todos eles estão presentes na <a href="https://old.reddit.com/r/Piracy/wiki/megathread/games">Megathread r/Piracy</a> do Reddit.</p>
-    <h3 id="donateHeader">Doação</h3>
-    <p id="donateInfo">Caso goste do meu trabalho e queira fazer uma doação via paypal, aceito qualquer montante.</p>
+      .payment-btn {
+        padding: 12px;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        transition: transform 0.2s;
+      }
 
-    <footer id="footer">&copy; 2025 Kazumi Source (Baseado no HTML criado por Shisuys, todos os créditos vão a ele)</footer>
-</body>
+      .payment-btn:hover {
+        transform: scale(1.02);
+      }
+
+      .paypal-btn {
+        background-color: #0070ba;
+      }
+
+      .mbway-btn {
+        background-color: #ff5a00;
+      }
+
+      .info {
+        max-width: 800px;
+        margin: -80px auto 40px;
+        padding: 20px;
+        background-color: rgba(34, 36, 43, 0.9);
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        line-height: 1.6;
+        text-align: justify;
+      }
+
+      .info h3 {
+        text-align: left;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+
+      .info p {
+        margin-bottom: 15px;
+        word-spacing: -0.05rem;
+        text-align: left;
+        font-weight: 500;
+      }
+
+      footer {
+        padding: 15px;
+        font-size: 0.9rem;
+        color: #aaaaaa;
+      }
+
+      a:-webkit-any-link {
+        color: #a3a9ff;
+      }
+    </style>
+  </head>
+  <body>
+    <header id="title">Kazumi Source</header>
+
+    <div class="content">
+      <button id="addBtn" onclick="abrirHydra()">Adicionar ao Hydra</button>
+      <button id="copyBtn" onclick="copiarLink()">Copiar Link</button>
+      <button id="addBtn" onclick="pedidopraFonte()">
+        Pedir um jogo pra fonte
+      </button>
+      <button class="donate" onclick="abrirModalDoacao()">Fazer Doação</button>
+    </div>
+
+    <!-- Modal de escolha de método de pagamento -->
+    <div id="donationModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Escolha o método de doação</h2>
+          <span class="close" onclick="fecharModal()">&times;</span>
+        </div>
+        <div class="payment-options">
+          <button class="payment-btn paypal-btn" onclick="doarPayPal()">
+            <img
+              src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
+              alt="PayPal"
+              width="37"
+              height="23"
+            />
+            Doar via PayPal
+          </button>
+          <button class="payment-btn mbway-btn" onclick="doarMBWay()">
+            <img
+              src="https://mbway.pt/wp-content/themes/mbway/img/logo-mbway-white.svg"
+              alt="MB Way"
+              width="80"
+              height="23"
+            />
+            Doar via MB Way
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="info">
+      <h3 id="fonteHeader">A Minha Fonte</h3>
+      <p id="fonteInfo">
+        Eu criei esta fonte com o intuito de ajudar a comunidade a ter um acesso
+        facilitado a jogos no launcher do Hydra ao fornecer versões
+        pré-instaladas desses mesmos jogos, eu aceito pedidos de jogos pra se
+        colocar na fonte então se tiver algum pedido basta clicar no botão de
+        pedir um jogo que você será redirecionado para um formulário onde poderá
+        pedir o jogo.
+      </p>
+      <h3 id="linkHeader">Acerca dos Links</h3>
+      <p id="linkInfo">
+        Eu uso maioritariamente links de sites como,
+        <a href="https://gamdie.com/">Gamdie</a>,
+        <a href="https://repack-games.com/">Repack-Games</a> &
+        <a href="https://torrent-games.games/">Torrent-Games</a>. Todos eles
+        estão presentes na
+        <a href="https://old.reddit.com/r/Piracy/wiki/megathread/games"
+          >Megathread r/Piracy</a
+        >
+        do Reddit.
+      </p>
+
+      <footer id="footer">
+        &copy; 2025 Kazumi Source (Baseado no HTML criado por Shisuys, todos os
+        créditos vão a ele)
+      </footer>
+    </div>
+
+    <script>
+      function copiarLink() {
+        navigator.clipboard.writeText(
+          "https://davidkazumi.github.io/fontekazumi.json"
+        );
+        alert("Link Copiado!");
+      }
+
+      function abrirHydra() {
+        window.open(
+          "hydralauncher://install-source?urls=https://davidkazumi.github.io/fontekazumi.json"
+        );
+      }
+
+      function pedidopraFonte() {
+        window.open("https://form.jotform.com/251055259346054");
+      }
+
+      // Funções para o modal de doação
+      function abrirModalDoacao() {
+        document.getElementById("donationModal").style.display = "block";
+      }
+
+      function fecharModal() {
+        document.getElementById("donationModal").style.display = "none";
+      }
+
+      // Fechar modal ao clicar fora
+      window.onclick = function (event) {
+        if (event.target == document.getElementById("donationModal")) {
+          fecharModal();
+        }
+      };
+
+      function doarPayPal() {
+        window.open(
+          "https://www.paypal.com/donate/?hosted_button_id=DF2DUYWWQM8TG"
+        );
+        fecharModal();
+      }
+
+      function doarMBWay() {
+        // Substitua pelo seu número de telefone associado ao MB Way
+        window.open("https://mbway.pt/transferir-dinheiro/?phone=939224252");
+        fecharModal();
+      }
+    </script>
+  </body>
 </html>
