@@ -247,7 +247,7 @@
           </button>
           <button class="payment-btn mbway-btn" onclick="doarMBWay()">
             <img
-              src="https://pplware.sapo.pt/wp-content/uploads/2022/02/mbway_capa2.jpeg"
+              src="https://mbway.pt/wp-content/themes/mbway/img/logo-mbway-white.svg"
               alt="MB Way"
               width="80"
               height="23"
@@ -329,8 +329,20 @@
       }
 
       function doarMBWay() {
-        // Substitua pelo seu número de telefone associado ao MB Way
-        window.open("https://mbway.pt/transferir-dinheiro/?phone=939224252");
+        // Substitua 123456789 pelo seu número de telefone associado ao MB Way
+        const phoneNumber = "939224252"; // SEU NÚMERO MB WAY AQUI
+
+        // Tenta abrir o app MB Way diretamente
+        window.location.href = `mbway://transfer?phone=${939224252}`;
+
+        // Fallback caso o esquema URI não funcione
+        setTimeout(function () {
+          window.open(
+            `https://mbway.pt/transferir-dinheiro/?phone=${939224252}`,
+            "_blank"
+          );
+        }, 500);
+
         fecharModal();
       }
     </script>
