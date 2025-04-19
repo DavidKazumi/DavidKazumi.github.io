@@ -334,28 +334,21 @@
       }
 
       function doarMBWay() {
-        // SUBSTITUA PELO SEU NÚMERO (com código país +351 se for Portugal)
-        const phoneNumber = "351939224252"; // Exemplo: 351912345678
+        // Substitua pelo SEU NÚMERO com código de país (ex: +351 para Portugal)
+        const phoneNumber = "351912345678"; // Exemplo: 351912345678
 
-        // Verifica se é mobile
-        const isMobile =
-          /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-            navigator.userAgent
-          );
+        // Abre diretamente o app se for mobile
+        if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
+          window.location.href = `mbway://sendtransfer?phone=${939224252}`;
 
-        if (isMobile) {
-          // Tenta abrir o app diretamente
-          window.location.href = `mbway://transfer?phone=${939224252}`;
-
-          // Fallback: Se após 1 segundo não abriu o app, vai para o site
-          setTimeout(function () {
-            window.location.href = `https://mbway.pt/transferir-dinheiro/?phone=${939224252}`;
+          // Fallback para o site oficial após 1 segundo
+          setTimeout(() => {
+            window.open(`https://www.mbway.pt`, "_blank");
           }, 1000);
         } else {
-          // Para desktop vai direto para o site
-          window.open(
-            `https://mbway.pt/transferir-dinheiro/?phone=${939224252}`,
-            "_blank"
+          // Para desktop mostra instruções
+          alert(
+            `Para doar via MB Way:\n\n1. Abra o app MB Way no seu telemóvel\n2. Selecione "Enviar dinheiro"\n3. Insira este número: ${939224252}\n\nObrigado pela sua doação!`
           );
         }
 
