@@ -404,7 +404,12 @@
           </button>
         </div>
 
-        <div id="opcoes-tradicional" class="payment-options">
+        <div
+          id="opcoes-tradicional"
+          class="payment-options"
+          style="display: flex"
+        >
+          <!-- Alterado para flex -->
           <button class="payment-btn paypal-btn" onclick="doarPayPal()">
             <img
               src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -419,7 +424,11 @@
           </button>
         </div>
 
-        <div id="opcoes-crypto" class="payment-options" style="display: none">
+        <div
+          id="opcoes-crypto"
+          class="payment-options"
+          style="display: none; flex-direction: column"
+        >
           <div id="solana-amount-selector">
             <h4>Escolha o valor (SOL):</h4>
             <div class="amount-buttons">
@@ -578,16 +587,29 @@
       }
 
       function mostrarOpcoes(regiao) {
-        document
-          .querySelectorAll(".payment-options")
-          .forEach((el) => (el.style.display = "none"));
-        document
-          .querySelectorAll(".region-btn")
-          .forEach((btn) => btn.classList.remove("active"));
-        document.getElementById(`opcoes-${regiao}`).style.display = "block";
+        // Esconde todas as opções
+        document.querySelectorAll(".payment-options").forEach((el) => {
+          el.style.display = "none";
+          // Força o redesenho/reflow antes de mostrar novamente
+          void el.offsetHeight;
+        });
+
+        // Atualiza os botões de região
+        document.querySelectorAll(".region-btn").forEach((btn) => {
+          btn.classList.remove("active");
+        });
+
+        // Mostra a opção selecionada
+        const opcaoSelecionada = document.getElementById(`opcoes-${regiao}`);
+        opcaoSelecionada.style.display = "flex"; // Alterado para flex
         document
           .querySelector(`.region-btn[onclick="mostrarOpcoes('${regiao}')"]`)
           .classList.add("active");
+
+        // Reseta o QR Code se voltar para tradicional
+        if (regiao === "tradicional") {
+          document.getElementById("solana-qr-container").style.display = "none";
+        }
       }
 
       // GERAR QR CODE DINÂMICO
