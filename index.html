@@ -180,6 +180,36 @@
         background-color: #ff0800;
       }
 
+      /* NOVOS ESTILOS PARA SOLANA */
+      .solana-btn {
+        background: linear-gradient(135deg, #9945FF 0%, #14F195 100%);
+        color: white;
+      }
+
+      .solana-btn:hover {
+        background: linear-gradient(135deg, #7a36cc 0%, #12d185 100%);
+      }
+
+      .region-options {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .region-btn {
+        background: none;
+        border: none;
+        color: #a3a9ff;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 5px 10px;
+      }
+      
+      .region-btn.active {
+        border-bottom: 2px solid #a3a9ff;
+      }
+
       .info {
         max-width: 800px;
         margin: -80px auto 40px;
@@ -237,7 +267,13 @@
           <h2>Escolha o método de doação</h2>
           <span class="close" onclick="fecharModal()">&times;</span>
         </div>
-        <div class="payment-options">
+        
+        <div class="region-options">
+          <button class="region-btn active" onclick="mostrarOpcoes('tradicional')">Tradicional</button>
+          <button class="region-btn" onclick="mostrarOpcoes('crypto')">Criptomoedas</button>
+        </div>
+        
+        <div id="opcoes-tradicional" class="payment-options">
           <button class="payment-btn paypal-btn" onclick="doarPayPal()">
             <img
               src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg"
@@ -249,6 +285,17 @@
           </button>
           <button class="payment-btn mbway-btn" onclick="doarMBWay()">
             Doar via MB Way
+          </button>
+        </div>
+        
+        <div id="opcoes-crypto" class="payment-options" style="display:none">
+          <button class="payment-btn solana-btn" onclick="doarViaSolana()">
+            <img
+              src="https://cryptologos.cc/logos/solana-sol-logo.png"
+              alt="Solana"
+              width="20"
+            />
+            Doar via Solana (Phantom)
           </button>
         </div>
       </div>
@@ -278,7 +325,7 @@
       </p>
       <h3 id="donateHeader">Doação</h3>
       <p id="donateInfo">
-        Caso gostes do meu trabalho e queiras fazer uma doação via paypal ou mbway, aceito
+        Caso gostes do meu trabalho e queiras fazer uma doação via PayPal, MB Way ou Solana (Phantom), aceito
         qualquer montante.
       </p>
 
@@ -333,17 +380,40 @@
         const phoneNumber = "351939224252";
 
         if (/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)) {
-          window.location.href = `mbway://sendtransfer?phone=${939224252}`;
+          window.location.href = `mbway://sendtransfer?phone=${phoneNumber}`;
 
           setTimeout(() => {
             window.open(`https://www.mbway.pt`, "_blank");
           }, 2000);
         } else {
           alert(
-            `Para doar via MB Way:\n\n1. Abra o app MB Way no seu telemóvel\n2. Selecione "Enviar dinheiro"\n3. Insira este número: ${939224252}\n\nObrigado pela sua doação!`
+            `Para doar via MB Way:\n\n1. Abre a app MB Way no seu telemóvel\n2. Seleciona "Enviar dinheiro"\n3. Insere este número: ${phoneNumber}\n\nObrigado pela tua doação!`
           );
         }
 
+        fecharModal();
+      }
+      
+      function mostrarOpcoes(regiao) {
+        document.querySelectorAll('.payment-options').forEach(el => el.style.display = 'none');
+        document.querySelectorAll('.region-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById(`opcoes-${regiao}`).style.display = 'block';
+        document.querySelector(`.region-btn[onclick="mostrarOpcoes('${regiao}')"]`).classList.add('active');
+      }
+
+      function doarViaSolana() {
+        const solAddress = 'GLeQrPboAiqdwUxPfVexzMoU8fHMGMNst68FeqcHLwrj';
+        
+        window.location.href = `https://phantom.app/ul/v1/transfer?recipient=${solAddress}&token=SOL&amount=1`;
+        
+        setTimeout(() => {
+          navigator.clipboard.writeText(solAddress).then(() => {
+            alert('Endereço SOL copiado! Cole no Phantom para enviar.');
+          }).catch(() => {
+            prompt('Copie manualmente seu endereço Solana:', solAddress);
+          });
+        }, 500);
+        
         fecharModal();
       }
     </script>
