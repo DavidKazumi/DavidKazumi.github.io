@@ -210,6 +210,59 @@
         border-bottom: 2px solid #a3a9ff;
       }
 
+      /* NOVOS ELEMENTOS */
+      #solana-qr-container {
+        display: none;
+        text-align: center;
+        margin: 15px 0;
+      }
+
+      #solanaQrCode {
+        background: white;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      #donationHistory {
+        display: none;
+        max-width: 800px;
+        margin: 20px auto;
+        background: rgba(34, 36, 43, 0.7);
+        padding: 15px;
+        border-radius: 8px;
+      }
+
+      #donationHistory h3 {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+
+      #donationList {
+        width: 100%;
+      }
+
+      #donationList tr {
+        border-bottom: 1px solid #3b3f4b;
+      }
+
+      #donationList td {
+        padding: 8px;
+      }
+
+      .verify-btn {
+        background: #3b3f4b;
+        color: white;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+
+      .verify-btn:hover {
+        background: #505360;
+      }
+
       .info {
         max-width: 800px;
         margin: -80px auto 40px;
@@ -289,6 +342,10 @@
         </div>
         
         <div id="opcoes-crypto" class="payment-options" style="display:none">
+          <div id="solana-qr-container">
+            <canvas id="solanaQrCode"></canvas>
+            <p style="font-size:0.8rem; margin-top:10px;">Escaneie com Phantom Wallet</p>
+          </div>
           <button class="payment-btn solana-btn" onclick="doarViaSolana()">
             <img
               src="https://cryptologos.cc/logos/solana-sol-logo.png"
@@ -299,6 +356,22 @@
           </button>
         </div>
       </div>
+    </div>
+
+    <!-- Painel de Histórico de Doações -->
+    <div id="donationHistory">
+      <h3>Últimas Doações</h3>
+      <table style="width:100%; border-collapse:collapse;">
+        <thead>
+          <tr style="background:#2d303b;">
+            <th style="padding:10px; text-align:left;">Data</th>
+            <th style="padding:10px; text-align:right;">Valor</th>
+            <th style="padding:10px; text-align:center;">Status</th>
+          </tr>
+        </thead>
+        <tbody id="donationList"></tbody>
+      </table>
+      <button class="verify-btn" onclick="verificarDoacoes()">Verificar Novas Doações</button>
     </div>
 
     <div class="info">
@@ -326,7 +399,7 @@
       <h3 id="donateHeader">Doação</h3>
       <p id="donateInfo">
         Caso gostes do meu trabalho e queiras fazer uma doação via PayPal, MB Way ou Solana (Phantom), aceito
-        qualquer montante.
+        qualquer montante. Todas as doações ajudam a manter a fonte ativa e com novos jogos!
       </p>
 
       <footer id="footer">
@@ -335,7 +408,17 @@
       </footer>
     </div>
 
+    <!-- Biblioteca QR Code -->
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.1/build/qrcode.min.js"></script>
+    
     <script>
+      // Configuração da Carteira
+      const solanaConfig = {
+        address: "GLeQrPboAiqdwUxPfVexzMoU8fHMGMNst68FeqcHLwrj",
+        memo: "DOACAO_KAZUMI",
+        defaultAmount: 1 // SOL
+      };
+
       function copiarLink() {
         navigator.clipboard.writeText(
           "https://davidkazumi.github.io/fontekazumi.json"
@@ -399,23 +482,101 @@
         document.querySelectorAll('.region-btn').forEach(btn => btn.classList.remove('active'));
         document.getElementById(`opcoes-${regiao}`).style.display = 'block';
         document.querySelector(`.region-btn[onclick="mostrarOpcoes('${regiao}')"]`).classList.add('active');
+        
+        // Mostrar QR Code quando selecionar cripto
+        if (regiao === 'crypto') {
+          gerarQrCode();
+        }
       }
 
+      // GERAR QR CODE DINÂMICO
+      function gerarQrCode() {
+        const qrData = `solana:${solanaConfig.address}?amount=${solanaConfig.defaultAmount}&memo=${solanaConfig.memo}`;
+        QRCode.toCanvas(document.getElementById('solanaQrCode'), qrData, {
+          width: 180,
+          margin: 2,
+          color: {
+            dark: '#14F195',
+            light: '#23262f'
+          }
+        }, (error) => {
+          if (error) console.error(error);
+          document.getElementById('solana-qr-container').style.display = 'block';
+        });
+      }
+
+      // DOAÇÃO VIA SOLANA
       function doarViaSolana() {
-        const solAddress = 'GLeQrPboAiqdwUxPfVexzMoU8fHMGMNst68FeqcHLwrj';
+        // Mostrar QR Code
+        document.getElementById('solana-qr-container').style.display = 'block';
         
-        window.location.href = `https://phantom.app/ul/v1/transfer?recipient=${solAddress}&token=SOL&amount=1`;
+        // Tentar abrir Phantom Wallet
+        window.location.href = `https://phantom.app/ul/v1/transfer?recipient=${solanaConfig.address}&token=SOL&amount=${solanaConfig.defaultAmount}`;
         
+        // Fallback para copiar endereço
         setTimeout(() => {
-          navigator.clipboard.writeText(solAddress).then(() => {
-            alert('Endereço SOL copiado! Cole no Phantom para enviar.');
+          navigator.clipboard.writeText(solanaConfig.address).then(() => {
+            alert(`Endereço SOL copiado! Valor sugerido: ${solanaConfig.defaultAmount} SOL`);
           }).catch(() => {
-            prompt('Copie manualmente seu endereço Solana:', solAddress);
+            prompt('Copie manualmente seu endereço Solana:', solanaConfig.address);
           });
-        }, 500);
+        }, 1000);
+        
+        // Registrar doação (simulação)
+        registrarDoacao({
+          date: new Date().toISOString(),
+          amount: solanaConfig.defaultAmount,
+          currency: "SOL",
+          status: "pending"
+        });
         
         fecharModal();
       }
+
+      // HISTÓRICO DE DOAÇÕES
+      function registrarDoacao(donation) {
+        let history = JSON.parse(localStorage.getItem('donationHistory') || '[]');
+        history.push(donation);
+        localStorage.setItem('donationHistory', JSON.stringify(history));
+        mostrarHistorico();
+      }
+
+      function mostrarHistorico() {
+        const history = JSON.parse(localStorage.getItem('donationHistory') || '[]');
+        const tbody = document.getElementById('donationList');
+        
+        tbody.innerHTML = history.map(d => `
+          <tr>
+            <td>${new Date(d.date).toLocaleDateString()}</td>
+            <td style="text-align:right;">${d.amount} ${d.currency}</td>
+            <td style="text-align:center; color:${d.status==='confirmed'?'#14F195':'#FF5A00'}">
+              ${d.status==='confirmed'?'✅':'🕒'}
+            </td>
+          </tr>
+        `).join('');
+        
+        document.getElementById('donationHistory').style.display = 'block';
+      }
+
+      // VERIFICAÇÃO DE DOAÇÕES (SIMULADA - IMPLEMENTE API REAL DEPOIS)
+      function verificarDoacoes() {
+        alert("Esta é uma simulação. Na prática, você precisaria:\n\n1. Conectar a uma API da Solana\n2. Verificar transações para seu endereço\n3. Atualizar os status no histórico");
+        
+        // Simulação de confirmação
+        let history = JSON.parse(localStorage.getItem('donationHistory')) || [];
+        history.forEach(d => {
+          if (d.status === 'pending') {
+            d.status = Math.random() > 0.3 ? 'confirmed' : 'pending';
+          }
+        });
+        localStorage.setItem('donationHistory', JSON.stringify(history));
+        mostrarHistorico();
+      }
+
+      // INICIALIZAR
+      document.addEventListener('DOMContentLoaded', () => {
+        mostrarHistorico();
+      });
     </script>
   </body>
 </html>
