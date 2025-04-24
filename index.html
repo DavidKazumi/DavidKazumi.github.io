@@ -553,68 +553,6 @@
               );
             });
         }, 1000);
-
-        // Registrar doação (simulação)
-        registrarDoacao({
-          date: new Date().toISOString(),
-          amount: solanaConfig.defaultAmount,
-          currency: "SOL",
-          status: "pending",
-        });
-
-        fecharModal();
-      }
-
-      // HISTÓRICO DE DOAÇÕES
-      function registrarDoacao(donation) {
-        let history = JSON.parse(
-          localStorage.getItem("donationHistory") || "[]"
-        );
-        history.push(donation);
-        localStorage.setItem("donationHistory", JSON.stringify(history));
-        mostrarHistorico();
-      }
-
-      function mostrarHistorico() {
-        const history = JSON.parse(
-          localStorage.getItem("donationHistory") || "[]"
-        );
-        const tbody = document.getElementById("donationList");
-
-        tbody.innerHTML = history
-          .map(
-            (d) => `
-          <tr>
-            <td>${new Date(d.date).toLocaleDateString()}</td>
-            <td style="text-align:right;">${d.amount} ${d.currency}</td>
-            <td style="text-align:center; color:${
-              d.status === "confirmed" ? "#14F195" : "#FF5A00"
-            }">
-              ${d.status === "confirmed" ? "✅" : "🕒"}
-            </td>
-          </tr>
-        `
-          )
-          .join("");
-
-        document.getElementById("donationHistory").style.display = "block";
-      }
-
-      // VERIFICAÇÃO DE DOAÇÕES (SIMULADA - IMPLEMENTE API REAL DEPOIS)
-      function verificarDoacoes() {
-        alert(
-          "Esta é uma simulação. Na prática, você precisaria:\n\n1. Conectar a uma API da Solana\n2. Verificar transações para seu endereço\n3. Atualizar os status no histórico"
-        );
-
-        // Simulação de confirmação
-        let history = JSON.parse(localStorage.getItem("donationHistory")) || [];
-        history.forEach((d) => {
-          if (d.status === "pending") {
-            d.status = Math.random() > 0.3 ? "confirmed" : "pending";
-          }
-        });
-        localStorage.setItem("donationHistory", JSON.stringify(history));
-        mostrarHistorico();
       }
 
       // INICIALIZAR
