@@ -752,11 +752,6 @@
 			"uploadDate":"2024-11-03T23:00:00.000Z",
 			"fileSize":"12.5 GB"},
 			{
-			"title":"GROUND BRANCH (v04092024 + Multiplayer) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/ELXyQU"],
-			"uploadDate":"2024-11-03T23:00:00.000Z",
-			"fileSize":"37.1 GB"},
-			{
 			"title":"Hidden Deep (v0.95.18.2.1) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/eenjUE5A"],
 			"uploadDate":"2024-11-03T23:00:00.000Z",
@@ -3972,11 +3967,6 @@
 			"uploadDate":"2025-01-31T10:00:00.000Z",
 			"fileSize":"837 MB"},
 			{
-			"title":"Barony (v4.3.1.2024.12.13) [Pre-Instalado] ",
-			"uris":["https://gofile.io/d/c1mkjb"],
-			"uploadDate":"2025-01-31T10:00:00.000Z",
-			"fileSize":"644.4 MB"},
-			{
 			"title":"The Textorcist: The Story of Ray Bibbia (Build 17182600) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/hwQ2lJ"],
 			"uploadDate":"2025-01-31T10:00:00.000Z",
@@ -6982,9 +6972,24 @@
 			"uploadDate":"2025-04-27T20:00:00.000Z",
 			"fileSize":"1.7 GB"},
 			{
-			"title":"Clair Obscur: Expedition 33 (v56190) [Pre-Instalado] ",
-			"uris":["magnet:?xt=urn:btih:ead5bf0e60b4fc56ff2ac97efe974ceebb865248&dn=Clair.Obscur.Expedition.33.Deluxe.Edition-InsaneRamZes&xl=45368405444&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftr5.ysagin.top%3A80%2F&tr=https%3A%2F%2Ftr6.ysagin.top%3A443%2F"],
-			"uploadDate":"2025-04-27T20:00:00.000Z",
-			"fileSize":"42.25 GB"}
+			"title":"Clair Obscur: Expedition 33 (Build 18221398) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/RquKKL"],
+			"uploadDate":"2025-04-28T20:00:00.000Z",
+			"fileSize":"43.2 GB"},
+			{
+			"title":"Stygian Outer Gods (v150425) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/bVn1Ma"],
+			"uploadDate":"2025-04-28T20:00:00.000Z",
+			"fileSize":"13.6 GB"},
+			{
+			"title":"GROUND BRANCH (v1035) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/kpGShT"],
+			"uploadDate":"2025-04-28T20:00:00.000Z",
+			"fileSize":"43.1 GB"},
+			{
+			"title":"Barony (v4.3.1.2024.12.13) [Pre-Instalado] ",
+			"uris":["https://www.mediafire.com/file/co91bbqyyy0b28f"],
+			"uploadDate":"2025-04-28T20:00:00.000Z",
+			"fileSize":"614.54 MB"}
 		]
 	}
