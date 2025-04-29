@@ -175,43 +175,37 @@
     </div>
 
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const gameTitleInput = document.getElementById("gameTitle");
-        const autocompleteList = document.getElementById("autocomplete-list");
+      document
+        .addEventListener("DOMContentLoaded", function () {
+          const gameTitleInput = document.getElementById("gameTitle");
+          const autocompleteList = document.getElementById("autocomplete-list");
 
-        fetch("/steam-games.json");
+          fetch("/steam-games.json");
 
-        fetch(proxyUrl)
-          .then((response) => response.json())
-          .then((data) => {
-            console.log("Dados carregados:", data);
-            const games = data.map((game) => game.name);
+          gameTitleInput.addEventListener("input", function () {
+            const query = this.value.toLowerCase();
+            autocompleteList.innerHTML = "";
 
-            gameTitleInput.addEventListener("input", function () {
-              const query = this.value.toLowerCase();
-              autocompleteList.innerHTML = "";
+            if (!query) return;
 
-              if (!query) return;
+            const filteredGames = games.filter((game) =>
+              game.toLowerCase().includes(query)
+            );
+            console.log("Jogos filtrados:", filteredGames);
 
-              const filteredGames = games.filter((game) =>
-                game.toLowerCase().includes(query)
-              );
-              console.log("Jogos filtrados:", filteredGames);
-
-              filteredGames.forEach((game) => {
-                const item = document.createElement("div");
-                item.classList.add("autocomplete-item");
-                item.textContent = game;
-                item.addEventListener("click", function () {
-                  gameTitleInput.value = game;
-                  autocompleteList.innerHTML = "";
-                });
-                autocompleteList.appendChild(item);
+            filteredGames.forEach((game) => {
+              const item = document.createElement("div");
+              item.classList.add("autocomplete-item");
+              item.textContent = game;
+              item.addEventListener("click", function () {
+                gameTitleInput.value = game;
+                autocompleteList.innerHTML = "";
               });
+              autocompleteList.appendChild(item);
             });
-          })
-          .catch((error) => console.error("Erro ao carregar o JSON:", error));
-      });
+          });
+        })
+        .catch((error) => console.error("Erro ao carregar o JSON:", error));
 
       document
         .getElementById("gameRequestForm")
