@@ -179,7 +179,9 @@
         const gameTitleInput = document.getElementById("gameTitle");
         const autocompleteList = document.getElementById("autocomplete-list");
 
-        fetch("/steam-games.json")
+        fetch("/steam-games.json");
+
+        fetch(proxyUrl)
           .then((response) => response.json())
           .then((data) => {
             console.log("Dados carregados:", data);
