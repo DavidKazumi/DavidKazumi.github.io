@@ -179,76 +179,73 @@
         const gameTitleInput = document.getElementById("gameTitle");
         const autocompleteList = document.getElementById("autocomplete-list");
 
-        fetch("./steam-games-by-letter.json")
-          .then((response) => {
-            if (!response.ok) throw new Error("Erro ao carregar JSON");
-            return response.json();
-          })
-          .then((data) => {
-            gameTitleInput.addEventListener("input", function () {
-              const query = this.value.toLowerCase();
+        const worker = new Worker("search.worker.js");
+
+        worker.onmessage = function (event) {
+          const games = event.data;
+
+          games.forEach((game) => {
+            const item = document.createElement("div");
+            item.classList.add("autocomplete-item");
+            item.textContent = game.name;
+            item.addEventListener("click", () => {
+              gameTitleInput.value = game.name;
               autocompleteList.innerHTML = "";
-
-              if (!query) return;
-
-              const [firstChar, ...rest] = query;
-
-              const gamesByFirstChar = data[firstChar];
-
-              const filteredGames = gamesByFirstChar.filter((game) =>
-                game.name.includes(rest.join(""))
-              );
-
-              filteredGames.forEach((game) => {
-                const item = document.createElement("div");
-                item.classList.add("autocomplete-item");
-                item.textContent = game.name;
-                item.addEventListener("click", () => {
-                  gameTitleInput.value = game.name;
-                  autocompleteList.innerHTML = "";
-                });
-                autocompleteList.appendChild(item);
-              });
             });
-          })
-          .catch((error) => {
-            console.error("Falha ao carregar jogos:", error);
+            autocompleteList.appendChild(item);
           });
+        };
+
+        function debounce(func, delay) {
+          let timeout;
+          return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+          };
+        }
+
+        const debouncedInput = debounce(function () {
+          const query = this.value.toLowerCase();
+          autocompleteList.innerHTML = "";
+
+          if (!query) return;
+
+          worker.postMessage({
+            query,
+          });
+        }, 300);
+
+        gameTitleInput.addEventListener("input", debouncedInput);
       });
 
       document
         .getElementById("gameRequestForm")
-        .addEventListener("submit", async function (e) {
+        .addEventListener("submit", function (e) {
           e.preventDefault();
 
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
 
-          try {
-            const response = await fetch("submit.php", {
+          fetch(
+            "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w",
+            {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ server, discordNick, gameTitle }),
-            });
-
-            const contentType = response.headers.get("content-type");
-            if (!contentType || !contentType.includes("application/json")) {
-              const text = await response.text();
-              throw new Error(`Resposta inesperada: ${text}`);
+              body: JSON.stringify({
+                content: `Novo pedido:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
+              }),
             }
-
-            const result = await response.json();
-
-            if (!response.ok)
-              throw new Error(result.error || "Erro no servidor");
-
-            alert("Pedido enviado com sucesso!");
-            this.reset();
-          } catch (error) {
-            console.error("Erro completo:", error);
-            alert(`Erro: ${error.message}`);
-          }
+          )
+            .then((response) => {
+              if (!response.ok) throw new Error("Erro no Discord");
+              alert("Pedido enviado!");
+              this.reset();
+            })
+            .catch((error) => {
+              console.error("Erro:", error);
+              alert("Falha ao enviar. Tente novamente.");
+            });
         });
     </script>
   </body>
