@@ -226,22 +226,28 @@
           const gameTitle = document.getElementById("gameTitle").value;
 
           try {
-            const response = await fetch("/api/submit", {
+            const response = await fetch("submit.php", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ server, discordNick, gameTitle }),
             });
 
+            const contentType = response.headers.get("content-type");
+            if (!contentType || !contentType.includes("application/json")) {
+              const text = await response.text();
+              throw new Error(`Resposta inesperada: ${text}`);
+            }
+
             const result = await response.json();
 
             if (!response.ok)
-              throw new Error(result.error || "Erro desconhecido");
+              throw new Error(result.error || "Erro no servidor");
 
             alert("Pedido enviado com sucesso!");
             this.reset();
           } catch (error) {
-            console.error("Erro:", error);
-            alert(error.message || "Falha ao enviar. Tente novamente.");
+            console.error("Erro completo:", error);
+            alert(`Erro: ${error.message}`);
           }
         });
     </script>
