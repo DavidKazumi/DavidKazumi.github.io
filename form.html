@@ -29,7 +29,7 @@
         width: 100%;
         max-width: 500px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-        position: relative;
+        position: relative; /* Adicionado para posicionamento relativo */
       }
 
       h1 {
@@ -41,7 +41,7 @@
 
       .form-group {
         margin-bottom: 20px;
-        position: relative;
+        position: relative; /* Adicionado para posicionamento relativo */
       }
 
       label {
@@ -101,19 +101,20 @@
         transform: translateY(0);
       }
 
+      /* CSS para Autocomplete */
       .autocomplete-items {
         position: absolute;
         border: 1px solid #d4d4d4;
         border-bottom: none;
         border-top: none;
         z-index: 99;
-        top: 100%;
+        top: 100%; /* Ajustado para aparecer abaixo do campo de entrada */
         left: 0;
         right: 0;
         background-color: #23262f;
         color: #ffffff;
-        max-height: 200px;
-        overflow-y: auto;
+        max-height: 200px; /* Adicionado para limitar a altura */
+        overflow-y: auto; /* Adicionado para permitir rolagem */
       }
 
       .autocomplete-item {
@@ -174,13 +175,14 @@
         const gameTitleInput = document.getElementById("gameTitle");
         const autocompleteList = document.getElementById("autocomplete-list");
 
+        // Usar um proxy para evitar problemas de CORS
         const proxyUrl = "https://cors-anywhere.herokuapp.com/";
         const targetUrl = "https://assets.hydralauncher.gg/steam-games.json";
 
         fetch(proxyUrl + targetUrl)
           .then((response) => response.json())
           .then((data) => {
-            console.log("Dados carregados:", data);
+            console.log("Dados carregados:", data); // Log para verificar os dados carregados
             const games = data.map((game) => game.name);
 
             gameTitleInput.addEventListener("input", function () {
@@ -192,7 +194,7 @@
               const filteredGames = games.filter((game) =>
                 game.toLowerCase().includes(query)
               );
-              console.log("Jogos filtrados:", filteredGames);
+              console.log("Jogos filtrados:", filteredGames); // Log para verificar os jogos filtrados
 
               filteredGames.forEach((game) => {
                 const item = document.createElement("div");
@@ -219,7 +221,7 @@
           const gameTitle = document.getElementById("gameTitle").value;
 
           const webhookURL =
-            "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w";
+            "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w"; // Substitua pela URL do seu webhook
 
           const message = {
             content: `Novo pedido de jogo:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
