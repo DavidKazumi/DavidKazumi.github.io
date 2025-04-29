@@ -179,7 +179,7 @@
         const gameTitleInput = document.getElementById("gameTitle");
         const autocompleteList = document.getElementById("autocomplete-list");
 
-        const worker = new Worker("search.worker.js");
+        const worker = new Worker("search-worker.js");
 
         worker.onmessage = function (event) {
           const games = event.data;
