@@ -99,7 +99,6 @@
         transform: translateY(0);
       }
 
-      /* CSS para Autocomplete */
       .autocomplete-items {
         position: absolute;
         border: 1px solid #d4d4d4;
@@ -174,6 +173,7 @@
         fetch("https://assets.hydralauncher.gg/steam-games.json")
           .then((response) => response.json())
           .then((data) => {
+            console.log("Dados carregados:", data);
             const games = data.map((game) => game.name);
 
             gameTitleInput.addEventListener("input", function () {
@@ -185,6 +185,7 @@
               const filteredGames = games.filter((game) =>
                 game.toLowerCase().includes(query)
               );
+              console.log("Jogos filtrados:", filteredGames);
 
               filteredGames.forEach((game) => {
                 const item = document.createElement("div");
@@ -211,7 +212,7 @@
           const gameTitle = document.getElementById("gameTitle").value;
 
           const webhookURL =
-            "https://discord.com/api/webhooks/{webhook_id}/{webhook_token}"; // Substitua pela URL do seu webhook
+            "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w";
 
           const message = {
             content: `Novo pedido de jogo:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
