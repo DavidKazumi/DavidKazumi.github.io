@@ -1872,11 +1872,6 @@
 			"uploadDate":"2024-12-05T23:00:00.000Z",
 			"fileSize":"23.7 GB"},
 			{
-			"title":"Automobilista 2: IMSA Track Pack (v1.6.3.0 + 24 DLC)",
-			"uris":["magnet:?xt=urn:btih:X7VHYVZIZNJ3BDFUVIDYN6S5HSW6L2P3&dn=Automobilista.2.IMSA.Track.Pack-RUNE&tr.1=http%3A%2F%2Fbt4.t-ru.org%2Fann&tr.2=http%3A%2F%2Fbt4.t-ru.org%2Fann&tr.3=http%3A%2F%2Fretracker.local%2Fannounce"],
-			"uploadDate":"2024-12-05T23:00:00.000Z",
-			"fileSize":"98.2 GB"},
-			{
 			"title":"Midori no Kaori (Early Access) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/g5cAix3b"],
 			"uploadDate":"2024-12-05T10:00:00.000Z",
@@ -7030,6 +7025,16 @@
 			"title":"BETON BRUTAL (Build 15212885) [Pre-Instalado] ",
 			"uris":["https://www.mediafire.com/file/pw357xz5n3wvg47"],
 			"uploadDate":"2025-04-29T20:00:00.000Z",
-			"fileSize":"401.76 MB"}
+			"fileSize":"401.76 MB"},
+			{
+			"title":"Automobilista (v1.5.26) [Pre-Instalado] ",
+			"uris":["https://datanodes.to/nz1882g57xzr/Automobilista.rar"],
+			"uploadDate":"2025-04-29T20:00:00.000Z",
+			"fileSize":"25.6 GB"},
+			{
+			"title":"Automobilista 2 (v1.6.4.2) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/zD12mz"],
+			"uploadDate":"2025-04-29T20:00:00.000Z",
+			"fileSize":"32.1GB"}
 		]
 	}
