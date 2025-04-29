@@ -134,7 +134,10 @@
             name="gameTitle"
             placeholder="Exemplo: Elden Ring"
             required
-          />
+            autocomplete="off"
+          />          
+          <div id="autocomplete-list" class="autocomplete-items"></div>
+                 
         </div>
 
         <button type="submit" class="submit-btn">Enviar Pedido</button>
@@ -142,6 +145,40 @@
     </div>
 
     <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const gameTitleInput = document.getElementById("gameTitle");
+        const autocompleteList = document.getElementById("autocomplete-list");
+
+        fetch("https://assets.hydralauncher.gg/steam-games.json")
+          .then((response) => response.json())
+          .then((data) => {
+            const games = data.map((game) => game.name);
+
+            gameTitleInput.addEventListener("input", function () {
+              const query = this.value.toLowerCase();
+              autocompleteList.innerHTML = "";
+
+              if (!query) return;
+
+              const filteredGames = games.filter((game) =>
+                game.toLowerCase().includes(query)
+              );
+
+              filteredGames.forEach((game) => {
+                const item = document.createElement("div");
+                item.classList.add("autocomplete-item");
+                item.textContent = game;
+                item.addEventListener("click", function () {
+                  gameTitleInput.value = game;
+                  autocompleteList.innerHTML = "";
+                });
+                autocompleteList.appendChild(item);
+              });
+            });
+          })
+          .catch((error) => console.error("Erro ao carregar o JSON:", error));
+      });
+
       document
         .getElementById("gameRequestForm")
         .addEventListener("submit", function (e) {
@@ -149,13 +186,8 @@
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
-          console.log("Dados do formulário:", {
-            server,
-            discordNick,
-            gameTitle,
-          });
           const webhookURL =
-            "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w";
+            "https://discord.com/api/webhooks/{webhook_id}/{webhook_token}"; // Substitua pela URL do seu webhook
 
           const message = {
             content: `Novo pedido de jogo:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
@@ -169,7 +201,6 @@
             body: JSON.stringify(message),
           })
             .then((response) => {
-              console.log("Resposta do webhook:", response);
               if (response.ok) {
                 alert("Pedido enviado com sucesso! Obrigado pela sugestão.");
                 this.reset();
