@@ -146,11 +146,14 @@
         .getElementById("gameRequestForm")
         .addEventListener("submit", function (e) {
           e.preventDefault();
-
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
-
+          console.log("Dados do formulário:", {
+            server,
+            discordNick,
+            gameTitle,
+          });
           const webhookURL =
             "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w";
 
@@ -166,6 +169,7 @@
             body: JSON.stringify(message),
           })
             .then((response) => {
+              console.log("Resposta do webhook:", response);
               if (response.ok) {
                 alert("Pedido enviado com sucesso! Obrigado pela sugestão.");
                 this.reset();
