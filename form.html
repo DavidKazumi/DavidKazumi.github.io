@@ -98,6 +98,29 @@
       .submit-btn:active {
         transform: translateY(0);
       }
+
+      /* CSS para Autocomplete */
+      .autocomplete-items {
+        position: absolute;
+        border: 1px solid #d4d4d4;
+        border-bottom: none;
+        border-top: none;
+        z-index: 99;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #23262f;
+        color: #ffffff;
+      }
+
+      .autocomplete-item {
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      .autocomplete-item:hover {
+        background-color: #a3a9ff;
+      }
     </style>
   </head>
   <body>
@@ -135,9 +158,8 @@
             placeholder="Exemplo: Elden Ring"
             required
             autocomplete="off"
-          />          
+          />
           <div id="autocomplete-list" class="autocomplete-items"></div>
-                 
         </div>
 
         <button type="submit" class="submit-btn">Enviar Pedido</button>
@@ -183,9 +205,11 @@
         .getElementById("gameRequestForm")
         .addEventListener("submit", function (e) {
           e.preventDefault();
+
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
+
           const webhookURL =
             "https://discord.com/api/webhooks/{webhook_id}/{webhook_token}"; // Substitua pela URL do seu webhook
 
