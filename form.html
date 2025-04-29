@@ -218,32 +218,31 @@
 
       document
         .getElementById("gameRequestForm")
-        .addEventListener("submit", function (e) {
+        .addEventListener("submit", async function (e) {
           e.preventDefault();
 
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
 
-          fetch(
-            "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w",
-            {
+          try {
+            const response = await fetch("/api/submit", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                content: `Novo pedido:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
-              }),
-            }
-          )
-            .then((response) => {
-              if (!response.ok) throw new Error("Erro no Discord");
-              alert("Pedido enviado!");
-              this.reset();
-            })
-            .catch((error) => {
-              console.error("Erro:", error);
-              alert("Falha ao enviar. Tente novamente.");
+              body: JSON.stringify({ server, discordNick, gameTitle }),
             });
+
+            const result = await response.json();
+
+            if (!response.ok)
+              throw new Error(result.error || "Erro desconhecido");
+
+            alert("Pedido enviado com sucesso!");
+            this.reset();
+          } catch (error) {
+            console.error("Erro:", error);
+            alert(error.message || "Falha ao enviar. Tente novamente.");
+          }
         });
     </script>
   </body>
