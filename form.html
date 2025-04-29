@@ -123,22 +123,33 @@
     </style>
   </head>
   <body>
+       
     <div class="form-container">
+             
       <h1>Pedido de Jogos - Kazumi Source</h1>
-
+                     
       <form id="gameRequestForm">
+                   
         <div class="form-group">
-          <label for="server">Servidor do Discord:</label>
+                         
+          <label for="server">Servidor do Discord:</label>                
           <select id="server" name="server" required>
+                               
             <option value="" disabled selected>Selecione seu servidor</option>
+                               
             <option value="hydra">Servidor do Hydra</option>
+                               
             <option value="bumyy">Servidor do Bumyy</option>
+                               
             <option value="outro">Outro servidor</option>
+                           
           </select>
+                     
         </div>
-
+                               
         <div class="form-group">
-          <label for="discordNick">Seu Nick no Discord:</label>
+                         
+          <label for="discordNick">Seu Nick no Discord:</label>                
           <input
             type="text"
             id="discordNick"
@@ -146,10 +157,13 @@
             placeholder="Exemplo: Kazumi#1234"
             required
           />
+                     
         </div>
-
+                               
         <div class="form-group">
+                         
           <label for="gameTitle">Título do Jogo que deseja:</label>
+                         
           <input
             type="text"
             id="gameTitle"
@@ -158,19 +172,26 @@
             required
             autocomplete="off"
           />
+                         
           <div id="autocomplete-list" class="autocomplete-items"></div>
+                     
         </div>
-
-        <button type="submit" class="submit-btn">Enviar Pedido</button>
+                               
+        <button type="submit" class="submit-btn">Enviar Pedido</button>        
       </form>
+         
     </div>
 
+       
     <script>
       document.addEventListener("DOMContentLoaded", function () {
         const gameTitleInput = document.getElementById("gameTitle");
         const autocompleteList = document.getElementById("autocomplete-list");
 
-        fetch("https://assets.hydralauncher.gg/steam-games.json")
+        const proxyUrl = "https://cors-anywhere.herokuapp.com/";
+        const targetUrl = "https://assets.hydralauncher.gg/steam-games.json";
+
+        fetch(proxyUrl + targetUrl)
           .then((response) => response.json())
           .then((data) => {
             console.log("Dados carregados:", data);
@@ -206,11 +227,9 @@
         .getElementById("gameRequestForm")
         .addEventListener("submit", function (e) {
           e.preventDefault();
-
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
-
           const webhookURL =
             "https://discord.com/api/webhooks/1366624223090573413/_IHPZDkyan3LUyLUNgI53ljLuVLlZUY6G19f53hZYtgKc0-JxEPO2iE2mUZRI6sVSi_w";
 
