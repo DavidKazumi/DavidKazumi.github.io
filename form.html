@@ -178,8 +178,8 @@
       document.addEventListener("DOMContentLoaded", function () {
         const gameTitleInput = document.getElementById("gameTitle");
         const autocompleteList = document.getElementById("autocomplete-list");
-        const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-        const targetUrl = "https://davidkazumi.github.io/steam-games.json";
+
+        fetch("/steam-games.json");
 
         fetch(proxyUrl + targetUrl)
           .then((response) => response.json())
