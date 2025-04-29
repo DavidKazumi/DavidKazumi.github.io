@@ -1,8 +1,6 @@
-// app/api/submit/route.js
 export async function POST(request) {
     const { server, discordNick, gameTitle } = await request.json();
     
-    // Validação dos dados
     if (!server || !discordNick || !gameTitle) {
       return new Response(JSON.stringify({ error: "Dados inválidos" }), {
         status: 400,
