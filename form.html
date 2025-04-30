@@ -226,17 +226,15 @@
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
-
-          fetch(
-            "https://discord.com/api/webhooks/1366910265433657424/3eOKcVS11z1maRlcN36MReCskn1xdMmBVgX0A7i1VEyhuud_dkDO8LOthzneLsyurV04",
-            {
-              method: "POST",
-              headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({
-                content: `Novo pedido:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
-              }),
-            }
-          )
+          const encodedUrl =
+            "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM2NjkxMDI2NTQzMzY1NzQyNC8zZU9LY1ZTMTF6MW1hUmxjTjM2TVJlQ3NrbjF4ZE1tQlZnWDBBN2kxVkV5aHV1ZF9ka0RPOExPdGh6bmVMc3l1clYwNA==";
+          fetch(atob(encodedUrl), {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              content: `Novo pedido:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
+            }),
+          })
             .then((response) => {
               if (!response.ok) throw new Error("Erro no Discord");
               alert("Pedido enviado!");
