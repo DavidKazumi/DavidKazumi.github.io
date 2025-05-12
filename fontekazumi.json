@@ -1591,11 +1591,6 @@
 			"uploadDate":"2024-12-01T23:00:00.000Z",
 			"fileSize":"4.7 GB"},
 			{
-			"title":"Satisfactory (v1.0.1.0 + Co-op) [Pre-Instalado]",
-			"uris":["https://gofile.io/d/9dG0ax"],
-			"uploadDate":"2024-12-01T23:00:00.000Z",
-			"fileSize":"13.8 GB"},
-			{
 			"title":"W.A.N.D Project (Build 16344795) [Pre-Instalado]",
 			"uris":["https://pixeldrain.com/u/Myfjiowr"],
 			"uploadDate":"2024-12-02T23:00:00.000Z",
@@ -7196,6 +7191,11 @@
 			"uploadDate":"2025-05-09T20:00:00.000Z",
 			"fileSize":"6.96 GB"},
 			{
+			"title":"Satisfactory (Build 18136157) [Pre-Instalado] ",
+			"uris":["https://gofile.io/d/ZuktxR"],
+			"uploadDate":"2025-05-10T20:00:00.000Z",
+			"fileSize":"13.5 GB"},
+			{
 			"title":"Call Of Duty Black Ops (v07.05.2024) [Pre-Instalado] ",
 			"uris":["https://datanodes.to/z12hje8vzgp2/Call-Of-Duty-Black-Ops.rar"],
 			"uploadDate":"2025-05-10T20:00:00.000Z",
@@ -7309,6 +7309,11 @@
 			"title":"DayZ (v1.27.159674) [Instalador] ",
 			"uris":["magnet:?xt=urn:btih:c13e6de1b552a13f83692da7f78db11a6479de4d&dn=DayZ%20Standalone%20%5BRepack%20by%20seleZen%5D&xl=18588531685&tr=udp%3A%2F%2Fopentor.net%3A6969&tr=http%3A%2F%2Fbt.desol.one%3A2710%2Fannounce&tr=http%3A%2F%2Fretracker.local%2Fannounce&tr=http%3A%2F%2Ftracker.grepler.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=http%3A%2F%2Fh4.trakx.nibba.trade%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.bitsearch.to%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"],
 			"uploadDate":"2025-05-11T20:00:00.000Z",
-			"fileSize":"17.31 GB"}
+			"fileSize":"17.31 GB"},
+			{
+			"title":"Darfall (Build 18408905) [Pre-Instalado] ",
+			"uris":["https://www.mediafire.com/file/e3y0e2927lqc0h4"],
+			"uploadDate":"2025-05-12T20:00:00.000Z",
+			"fileSize":"2 GB"}
 		]
 	}
