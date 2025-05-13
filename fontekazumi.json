@@ -4546,11 +4546,6 @@
 			"uploadDate":"2025-02-20T23:00:00.000Z",
 			"fileSize":"1.9 GB"},
 			{
-			"title":"Lost Records: Bloom & Rage [Pre-Instalado] ",
-			"uris":["magnet:?xt=urn:btih:89b30309530fe5409e769472ce4ebb4448c3d165&dn=Lost%20Records%20-%20Bloom%20%26%20Rage&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=http%3A%2F%2Ftr5.ysagin.top%3A80%2F&tr=https%3A%2F%2Ftr6.ysagin.top%3A443%2F"],
-			"uploadDate":"2025-02-21T23:00:00.000Z",
-			"fileSize":"43.2 GB"},
-			{
 			"title":"Assassin’s Creed III Remastered (v1.0.3) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/GJa5jg"],
 			"uploadDate":"2025-02-23T23:00:00.000Z",
@@ -7334,6 +7329,11 @@
 			"title":"FIFA 19 [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/HSAyhe"],
 			"uploadDate":"2025-05-12T20:00:00.000Z",
-			"fileSize":"49.9 GB"}
+			"fileSize":"49.9 GB"},
+			{
+			"title":"Lost Records: Bloom & Rage (v2.02.130347) [Pre-Instalado] ",
+			"uris":["magnet:?xt=urn:btih:2b8ce7c9eee26362007c3e5a5f7379f51b17cbfc&dn=Lost%20Records%20-%20Bloom%20%26%20Rage%20%282025%29&xl=58469171003&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker1.bt.moack.co.kr%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.theoks.net%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker-udp.gbitt.info%3A80%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker2.dler.org%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.ccp.ovh%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.0x7c0.com%3A6969%2Fannounce"],
+			"uploadDate":"2025-05-13T20:00:00.000Z",
+			"fileSize":"54.45 GB"}
 		]
 	}
