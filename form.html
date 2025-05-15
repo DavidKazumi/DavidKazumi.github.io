@@ -341,31 +341,15 @@
         });
     </script>
     <script>
-      function isAdmin() {
-        const encodedId = "NDYxODM2NTQ0NTg5MTg5MDk4"
-          .split("")
-          .reverse()
-          .join("");
-        const myDiscordId = atob(encodedId); // Decodifica em runtime
-
-        return document.cookie.includes(`admin_auth=${myDiscordId}`);
-      }
-      function decodeFirebaseKey(encoded) {
-        return atob(encoded.split("").reverse().join(""));
-      }
-      function setAdminCookie() {
+      window.setAdminCookie = function () {
         const password = prompt("Digite a senha de admin:");
-
-        const encodedPass = "MUs8NWBaNjd0KmZ7d2Uk";
-
-        if (password === atob(encodedPass.split("").reverse().join(""))) {
-          document.cookie = `admin_auth=${btoa(
-            "admin_validated"
-          )}; max-age=86400; path=/; Secure`;
+        if (password === "MUs8NWBaNjd0KmZ7d2Uk") {
+          document.cookie =
+            "admin_auth=NDYxODM2NTQ0NTg5MTg5MDk4; max-age=86400; path=/; Secure";
           alert("Acesso admin concedido!");
           location.reload();
         }
-      }
+      };
       const firebaseConfig = {
         apiKey: decodeFirebaseKey(
           "QUl6YVN5QmQwblBXcVppdHNrWVBLT1F5ZURmS1hEcU1sT1pRWV84"
