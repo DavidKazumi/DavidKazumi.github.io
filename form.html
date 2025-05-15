@@ -311,7 +311,35 @@
         </div>
       </div>
     </div>
+    <button
+      id="adminBtn"
+      style="
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 5px;
+        background: #2a2a3a;
+        color: white;
+        border: none;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        opacity: 0.3;
+        font-size: 12px;
+      "
+    >
+      A
+    </button>
 
+    <script>
+      document
+        .getElementById("adminBtn")
+        .addEventListener("click", function (e) {
+          e.preventDefault();
+          setAdminCookie();
+        });
+    </script>
     <script>
       function isAdmin() {
         const encodedId = "NDYxODM2NTQ0NTg5MTg5MDk4"
