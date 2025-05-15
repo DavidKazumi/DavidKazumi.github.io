@@ -343,13 +343,22 @@
     <script>
       window.setAdminCookie = function () {
         const password = prompt("Digite a senha de admin:");
-        if (password === "MUs8NWBaNjd0KmZ7d2Uk") {
+
+        // Senha codificada em Base64 (codifique sua senha real no console)
+        const encodedPass = "MUs8NWBaNjd0KmZ7d2Uk";
+
+        if (password && btoa(password) === encodedPass) {
           document.cookie =
-            "admin_auth=NDYxODM2NTQ0NTg5MTg5MDk4; max-age=86400; path=/; Secure";
-          alert("Acesso admin concedido!");
+            "admin_auth=true; max-age=86400; path=/; Secure; SameSite=Strict";
+          alert("✓ Acesso admin concedido!");
           location.reload();
+        } else {
+          alert("✗ Acesso negado!");
         }
       };
+
+      // Debug helper - verifique no console
+      console.log("Admin system ready - setAdminCookie() disponível");
       const firebaseConfig = {
         apiKey: decodeFirebaseKey(
           "QUl6YVN5QmQwblBXcVppdHNrWVBLT1F5ZURmS1hEcU1sT1pRWV84"
