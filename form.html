@@ -4,9 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pedido de Jogos - Kazumi Source</title>
-    <!-- Adicione estes scripts no head -->
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
     <style>
       * {
         margin: 0;
@@ -132,100 +129,6 @@
       .autocomplete-item:hover {
         background-color: #a3a9ff;
       }
-
-      /* Novos estilos para lista de espera */
-      .waiting-list-container {
-        margin-top: 30px;
-        background-color: #23262f;
-        border-radius: 8px;
-        padding: 15px;
-      }
-
-      .waiting-list-header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 15px;
-      }
-
-      .waiting-list-title {
-        color: #a3a9ff;
-        font-size: 20px;
-      }
-
-      .filters-container {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 15px;
-        flex-wrap: wrap;
-      }
-
-      .filter-group {
-        display: flex;
-        align-items: center;
-        gap: 5px;
-      }
-
-      .filter-label {
-        color: #d1d5db;
-        font-size: 14px;
-      }
-
-      .filter-select {
-        padding: 8px 12px;
-        border-radius: 5px;
-        background-color: #23262f;
-        color: #ffffff;
-        border: 1px solid #3b3f4b;
-      }
-
-      .waiting-list-item {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        border-bottom: 1px solid #3b3f4b;
-        align-items: center;
-      }
-
-      .waiting-list-details {
-        flex-grow: 1;
-      }
-
-      .waiting-list-actions {
-        display: flex;
-        gap: 5px;
-      }
-
-      .status-badge {
-        padding: 3px 8px;
-        border-radius: 10px;
-        font-size: 12px;
-        font-weight: 500;
-      }
-
-      .status-pending {
-        background-color: rgba(255, 163, 163, 0.2);
-        color: #ffa3a3;
-      }
-
-      .status-completed {
-        background-color: rgba(163, 255, 163, 0.2);
-        color: #a3ffa3;
-      }
-
-      .action-btn {
-        background: none;
-        border: none;
-        color: #a3a9ff;
-        cursor: pointer;
-        margin-left: 5px;
-        font-size: 14px;
-      }
-      .admin-mode .waiting-list-title::after {
-        content: " (Modo Admin)";
-        color: #14f195;
-        font-size: 0.8em;
-      }
     </style>
   </head>
   <body>
@@ -255,7 +158,7 @@
         </div>
 
         <div class="form-group">
-          <label for="gameTitle">Título do Jogo que deseja:</label>
+          <label for="gameTitle">Ti­tulo do Jogo que deseja:</label>
           <input
             type="text"
             id="gameTitle"
@@ -269,314 +172,52 @@
 
         <button type="submit" class="submit-btn">Enviar Pedido</button>
       </form>
-
-      <div class="waiting-list-container">
-        <div class="waiting-list-header">
-          <h2 class="waiting-list-title">Lista de Espera</h2>
-        </div>
-
-        <div class="filters-container">
-          <div class="filter-group">
-            <span class="filter-label">Servidor:</span>
-            <select id="filterServer" class="filter-select">
-              <option value="all">Todos</option>
-              <option value="hydra">Hydra</option>
-              <option value="bumyy">Bumyy</option>
-              <option value="outro">Outro</option>
-            </select>
-          </div>
-
-          <div class="filter-group">
-            <span class="filter-label">Status:</span>
-            <select id="filterStatus" class="filter-select">
-              <option value="all">Todos</option>
-              <option value="pending">Pendentes</option>
-              <option value="completed">Atendidos</option>
-            </select>
-          </div>
-
-          <div class="filter-group">
-            <span class="filter-label">Jogo:</span>
-            <input
-              type="text"
-              id="filterGame"
-              class="filter-select"
-              placeholder="Filtrar por jogo"
-            />
-          </div>
-        </div>
-
-        <div id="waitingListItems">
-          <!-- Itens serão inseridos aqui pelo JavaScript -->
-        </div>
-      </div>
     </div>
+
     <script>
-      document.__adminAuth = function () {
-        const password = prompt("Senha admin:");
-        if (password === atob("MUs8NWBaNjd0KmZ7d2Uk")) {
-          document.cookie = "admin_auth=1; max-age=86400; path=/";
-          alert("Admin ativado!");
-          window.location.href = window.location.href;
-        }
-      };
-      window.setAdminCookie = document.__adminAuth;
-    </script>
-    <script>
-      const firebaseConfig = {
-        apiKey: decodeFirebaseKey(
-          "QUl6YVN5QmQwblBXcVppdHNrWVBLT1F5ZURmS1hEcU1sT1pRWV84"
-        ),
-        authDomain: "formulario-da-fonte.firebaseapp.com",
-        databaseURL:
-          "https://formulario-da-fonte-default-rtdb.europe-west1.firebasedatabase.app",
-        projectId: "formulario-da-fonte",
-        storageBucket: "formulario-da-fonte.firebasestorage.app",
-        messagingSenderId: "684103048824",
-        appId: "1:684103048824:web:49d1038af1444c8d8ed78d",
-        measurementId: "G-18JCC6X5X8",
-      };
-
-      // Inicialize o Firebase
-      firebase.initializeApp(firebaseConfig);
-      const database = firebase.database();
-
-      // Referência para a lista de espera no Firebase
-      const waitingListRef = database.ref("waitingList");
-
-      // Funções para gerenciar a lista de espera
-      function addRequest(nick, game, server) {
-        const newRequest = {
-          nick,
-          game,
-          server,
-          date: new Date().toLocaleString(),
-          status: "pending",
-          timestamp: firebase.database.ServerValue.TIMESTAMP,
-        };
-
-        return waitingListRef.push(newRequest);
-      }
-
-      function updateRequestStatus(id, newStatus) {
-        return database.ref("waitingList/" + id).update({ status: newStatus });
-      }
-
-      // Monitorar mudanças na lista em tempo real
-      function setupRealtimeUpdates() {
-        waitingListRef.on("value", (snapshot) => {
-          const list = [];
-          snapshot.forEach((childSnapshot) => {
-            const item = childSnapshot.val();
-            item.id = childSnapshot.key;
-            list.push(item);
-          });
-
-          // Ordenar por timestamp (mais recente primeiro)
-          list.sort((a, b) => b.timestamp - a.timestamp);
-          renderWaitingList(list);
-        });
-      }
-
-      // Renderizar a lista com filtros
-      function renderWaitingList(list) {
-        const container = document.getElementById("waitingListItems");
-        const isUserAdmin = isAdmin(); // Verifica se é admin
-
-        container.innerHTML = list
-          .map(
-            (item) => `
-                          <div class="waiting-list-item">
-                              <div class="waiting-list-details">
-                                  <div><strong>${item.nick}</strong> - ${
-              item.game
-            }</div>
-                                  <div style="font-size: 12px; color: #d1d5db;">
-                                      ${getServerName(item.server)} • ${
-              item.date
-            }
-                                  </div>
-                              </div>
-                              <div class="waiting-list-actions">
-                                  <span class="status-badge status-${
-                                    item.status
-                                  }">
-                                      ${
-                                        item.status === "pending"
-                                          ? "Pendente"
-                                          : "Atendido"
-                                      }
-                                  </span>
-                                  ${
-                                    isUserAdmin
-                                      ? item.status === "pending"
-                                        ? `<button class="action-btn" onclick="markAsCompleted('${item.id}')" title="Marcar como atendido">✓</button>`
-                                        : `<button class="action-btn" onclick="markAsPending('${item.id}')" title="Marcar como pendente">↻</button>`
-                                      : ""
-                                  }
-                              </div>
-                          </div>
-                      `
-          )
-          .join("");
-      }
-
-      if (list.length === 0) {
-        container.innerHTML =
-          '<p style="color: #d1d5db; text-align: center;">Nenhum pedido encontrado</p>';
-        return;
-      }
-
-      container.innerHTML = list
-        .map(
-          (item) => `
-        <div class="waiting-list-item">
-            <div class="waiting-list-details">
-                <div><strong>${item.nick}</strong> - ${item.game}</div>
-                <div style="font-size: 12px; color: #d1d5db;"> 
-                    ${getServerName(item.server)} • ${item.date}
-                </div>
-            </div>
-            <div class="waiting-list-actions">
-                <span class="status-badge status-${item.status}">
-                    ${item.status === "pending" ? "Pendente" : "Atendido"}
-                </span>
-                ${
-                  item.status === "pending"
-                    ? '<button class="action-btn" onclick="markAsCompleted(\'' +
-                      item.id +
-                      '\')" title="Marcar como atendido">✓</button>'
-                    : '<button class="action-btn" onclick="markAsPending(\'' +
-                      item.id +
-                      '\')" title="Marcar como pendente">↻</button>'
-                }
-            </div>
-        </div>
-        `
-        )
-        .join("");
-
-      // Funções auxiliares
-      function getServerName(serverCode) {
-        const servers = {
-          hydra: "Hydra",
-          bumyy: "Bumyy",
-          outro: "Outro",
-        };
-        return servers[serverCode] || serverCode;
-      }
-
-      function markAsCompleted(id) {
-        updateRequestStatus(id, "completed")
-          .then(() => showNotification("Pedido marcado como atendido"))
-          .catch((error) => console.error("Erro:", error));
-      }
-
-      function markAsPending(id) {
-        updateRequestStatus(id, "pending")
-          .then(() => showNotification("Pedido marcado como pendente"))
-          .catch((error) => console.error("Erro:", error));
-      }
-
-      function showNotification(message) {
-        const notification = document.createElement("div");
-        notification.textContent = message;
-        notification.style.position = "fixed";
-        notification.style.bottom = "20px";
-        notification.style.right = "20px";
-        notification.style.backgroundColor = "#2a2a3a";
-        notification.style.color = "#ffffff";
-        notification.style.padding = "10px 20px";
-        notification.style.borderRadius = "5px";
-        notification.style.zIndex = "1000";
-
-        document.body.appendChild(notification);
-
-        setTimeout(() => {
-          notification.style.opacity = "0";
-          setTimeout(() => {
-            document.body.removeChild(notification);
-          }, 500);
-        }, 3000);
-      }
-
-      // Event Listeners para filtros
-      document.getElementById("filterServer").addEventListener("change", () => {
-        waitingListRef.once("value").then((snapshot) => {
-          const list = [];
-          snapshot.forEach((child) => {
-            list.push(child.val());
-          });
-          renderWaitingList(list);
-        });
-      });
-
-      document.getElementById("filterStatus").addEventListener("change", () => {
-        waitingListRef.once("value").then((snapshot) => {
-          const list = [];
-          snapshot.forEach((child) => {
-            list.push(child.val());
-          });
-          renderWaitingList(list);
-        });
-      });
-
-      document.getElementById("filterGame").addEventListener("input", () => {
-        waitingListRef.once("value").then((snapshot) => {
-          const list = [];
-          snapshot.forEach((child) => {
-            list.push(child.val());
-          });
-          renderWaitingList(list);
-        });
-      });
-
-      // Sistema de Autocomplete
       document.addEventListener("DOMContentLoaded", function () {
         const gameTitleInput = document.getElementById("gameTitle");
         const autocompleteList = document.getElementById("autocomplete-list");
 
-        fetch("./steam-games-by-letter.json")
-          .then((response) => {
-            if (!response.ok) throw new Error("Erro ao carregar JSON");
-            return response.json();
-          })
-          .then((data) => {
-            gameTitleInput.addEventListener("input", function () {
-              const query = this.value.toLowerCase();
+        const worker = new Worker("search-worker.js");
+
+        worker.onmessage = function (event) {
+          const games = event.data;
+
+          games.forEach((game) => {
+            const item = document.createElement("div");
+            item.classList.add("autocomplete-item");
+            item.textContent = game.name;
+            item.addEventListener("click", () => {
+              gameTitleInput.value = game.name;
               autocompleteList.innerHTML = "";
-
-              if (!query) return;
-
-              const [firstChar, ...rest] = query;
-
-              const gamesByFirstChar = data[firstChar];
-
-              const filteredGames = gamesByFirstChar.filter((game) =>
-                game.name.includes(rest.join(""))
-              );
-
-              filteredGames.forEach((game) => {
-                const item = document.createElement("div");
-                item.classList.add("autocomplete-item");
-                item.textContent = game.name;
-                item.addEventListener("click", () => {
-                  gameTitleInput.value = game.name;
-                  autocompleteList.innerHTML = "";
-                });
-                autocompleteList.appendChild(item);
-              });
             });
-          })
-          .catch((error) => {
-            console.error("Falha ao carregar jogos:", error);
+            autocompleteList.appendChild(item);
           });
+        };
 
-        // Inicializar Firebase e lista de espera
-        setupRealtimeUpdates();
+        function debounce(func, delay) {
+          let timeout;
+          return function (...args) {
+            clearTimeout(timeout);
+            timeout = setTimeout(() => func.apply(this, args), delay);
+          };
+        }
+
+        const debouncedInput = debounce(function () {
+          const query = this.value.toLowerCase();
+          autocompleteList.innerHTML = "";
+
+          if (!query) return;
+
+          worker.postMessage({
+            query,
+          });
+        }, 300);
+
+        gameTitleInput.addEventListener("input", debouncedInput);
       });
 
-      // Envio do formulário
       document
         .getElementById("gameRequestForm")
         .addEventListener("submit", function (e) {
@@ -585,32 +226,23 @@
           const server = document.getElementById("server").value;
           const discordNick = document.getElementById("discordNick").value;
           const gameTitle = document.getElementById("gameTitle").value;
-
-          // Adicionar à lista de espera no Firebase
-          addRequest(discordNick, gameTitle, server)
-            .then(() => {
-              // Enviar para o Discord
-              const encodedUrl =
-                "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM2NjkxMDI2NTQzMzY1NzQyNC8zZU9LY1ZTMTF6MW1hUmxjTjM2TVJlQ3NrbjF4ZE1tQlZnWDBBN2kxVkV5aHV1ZF9ka0RPOExPdGh6bmVMc3l1clYwNA==";
-
-              return fetch(atob(encodedUrl), {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({
-                  content: `Novo pedido:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
-                }),
-              });
-            })
+          const encodedUrl =
+            "aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTM2NjkxMDI2NTQzMzY1NzQyNC8zZU9LY1ZTMTF6MW1hUmxjTjM2TVJlQ3NrbjF4ZE1tQlZnWDBBN2kxVkV5aHV1ZF9ka0RPOExPdGh6bmVMc3l1clYwNA==";
+          fetch(atob(encodedUrl), {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              content: `Novo pedido:\nServidor: ${server}\nNick: ${discordNick}\nJogo: ${gameTitle}`,
+            }),
+          })
             .then((response) => {
               if (!response.ok) throw new Error("Erro no Discord");
-              alert("Pedido enviado e adicionado à lista de espera!");
+              alert("Pedido enviado!");
               this.reset();
             })
             .catch((error) => {
               console.error("Erro:", error);
-              alert(
-                "Pedido adicionado à lista, mas houve erro ao enviar para o Discord."
-              );
+              alert("Falha ao enviar. Tente novamente.");
             });
         });
     </script>
