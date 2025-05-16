@@ -6581,11 +6581,6 @@
 			"uploadDate":"2025-04-26T20:00:00.000Z",
 			"fileSize":"27.1 GB"},
 			{
-			"title":"Beat Saber (v1.37.4) [Pre-Instalado] ",
-			"uris":["https://www.mediafire.com/file/flwrfpxviyq201h/Beat.Saber.VR.v1.37.4.iso/file"],
-			"uploadDate":"2025-04-26T20:00:00.000Z",
-			"fileSize":"3.65 GB"},
-			{
 			"title":"Fate/stay night REMASTERED (v1.1.128) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/udSKMS"],
 			"uploadDate":"2025-04-26T20:00:00.000Z",
@@ -7414,6 +7409,11 @@
 			"title":"Anno 2070 Complete Edition (v2.0.7780) [Pre-Instalado] ",
 			"uris":["https://www.mediafire.com/file/0nlfn9mqkt9z3s5/Anno.2070.Complete.Edition.v2.0.7780.0.zip/file"],
 			"uploadDate":"2025-05-16T20:00:00.000Z",
-			"fileSize":"3.59 GB"}
+			"fileSize":"3.59 GB"},
+			{
+			"title":"Beat Saber (v1.40.0 + VR + Todas as DLCs) [Pre-Instalado] ",
+			"uris":["https://datanodes.to/bc9hqee9ndj0/Beat-Saber.rar"],
+			"uploadDate":"2025-05-16T20:00:00.000Z",
+			"fileSize":"4.4 GB"}
 		]
 	}
