@@ -556,11 +556,6 @@
 			"uploadDate":"2024-11-01T23:00:00.000Z",
 			"fileSize":"517 MB"},
 			{
-			"title":"Blasphemous 2 (v2.0.0)",
-			"uris":["https://pixeldrain.com/u/M9AVjerm"],
-			"uploadDate":"2024-11-02T23:00:00.000Z",
-			"fileSize":"6.1 GB"},
-			{
 			"title":"Shadows of the Damned: Hella Remastered",
 			"uris":["magnet:?xt=urn:btih:3OKRYDZII2I35A7TEG5DL5SN5Q63QXAN&dn=Shadows%20of%20the%20Damned%20Hella%20Remastered&tr.1=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.2=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr.3=udp%3A%2F%2Ftr3.ysagin.top%3A2715%2Fannounce&tr.4=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr.5=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr.6=http%3A%2F%2Ftr5.ysagin.top%3A80%2F"],
 			"uploadDate":"2024-11-02T23:00:00.000Z",
@@ -7454,6 +7449,16 @@
 			"title":"Bodycam (Build 17740629) [Pre-Instalado] ",
 			"uris":["https://gofile.io/d/QXe1Hk"],
 			"uploadDate":"2025-05-18T20:00:00.000Z",
-			"fileSize":"52.5 GB"}
+			"fileSize":"52.5 GB"},
+			{
+			"title":"Blasphemous 2 (v2.2.0 + DLC) [Pre-Instalado] ",
+			"uris":["https://datanodes.to/fwffybcbk68g/Blasphemous_2-SteamGG.NET.zip"],
+			"uploadDate":"2025-05-18T20:00:00.000Z",
+			"fileSize":"4.0 GB"},
+			{
+			"title":"Capcom Fighting Collection 2 (v2.2.0 + DLC) [Pre-Instalado] ",
+			"uris":["https://datanodes.to/yrg0h2msrct8/CAPCOM-FIGHTING-COLLECTION-2.rar"],
+			"uploadDate":"2025-05-18T20:00:00.000Z",
+			"fileSize":"3.1 GB"}
 		]
 	}
