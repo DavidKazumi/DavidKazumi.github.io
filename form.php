@@ -1,0 +1,313 @@
+<?php
+// Configuração da webhook (mantida segura no servidor)
+$webhookUrl = 'https://discord.com/api/webhooks/1374795495720882227/xeYRVjLka6GJ6anhD1AJTy8CWWuXLepqKXi9TbWDRaZkImeUgb-yooP7zSsslYWrwQL';
+
+// Incluir arquivo de configuração
+require_once 'config.php';
+
+// Processar o formulário quando enviado
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Validar os dados recebidos
+    $server = isset($_POST['server']) ? htmlspecialchars($_POST['server']) : '';
+    $discordNick = isset($_POST['discordNick']) ? htmlspecialchars($_POST['discordNick']) : '';
+    $gameTitle = isset($_POST['gameTitle']) ? htmlspecialchars($_POST['gameTitle']) : '';
+    
+    // Verificar se todos os campos estão preenchidos
+    if (!empty($server) && !empty($discordNick) && !empty($gameTitle)) {
+        // Preparar os dados para enviar ao Discord
+        $data = [
+            'content' => "Novo pedido:\nServidor: {$server}\nNick: {$discordNick}\nJogo: {$gameTitle}"
+        ];
+        
+        // Configurar a requisição
+        $options = [
+            'http' => [
+                'header'  => "Content-type: application/json\r\n",
+                'method'  => 'POST',
+                'content' => json_encode($data)
+            ]
+        ];
+        
+        // Criar contexto de stream
+        $context = stream_context_create($options);
+        
+        // Enviar a requisição
+        $result = @file_get_contents(DISCORD_WEBHOOK_URL, false, $context);
+        
+        // Verificar se o envio foi bem-sucedido
+        if ($result !== false) {
+            $message = "Pedido enviado com sucesso!";
+            $status = "success";
+        } else {
+            $message = "Falha ao enviar o pedido. Por favor, tente novamente.";
+            $status = "error";
+        }
+    } else {
+        $message = "Por favor, preencha todos os campos.";
+        $status = "error";
+    }
+}
+?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pedido de Jogos - Kazumi Source</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #1e1e2e;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .form-container {
+            background-color: #2a2a3a;
+            border-radius: 10px;
+            padding: 30px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #a3a9ff;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #d1d5db;
+        }
+
+        select,
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #3b3f4b;
+            border-radius: 6px;
+            background-color: #23262f;
+            color: #ffffff;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        select:focus,
+        input:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #a3a9ff;
+        }
+
+        select {
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23a3a9ff'%3e%3cpath d='M7 10l5 5 5-5z'/%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 15px center;
+            background-size: 20px;
+        }
+
+        .submit-btn {
+            background: linear-gradient(135deg, #9945ff 0%, #14f195 100%);
+            color: white;
+            border: none;
+            padding: 14px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s, opacity 0.2s;
+        }
+
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            opacity: 0.9;
+        }
+
+        .submit-btn:active {
+            transform: translateY(0);
+        }
+
+        .autocomplete-items {
+            position: absolute;
+            border: 1px solid #d4d4d4;
+            border-bottom: none;
+            border-top: none;
+            z-index: 99;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #23262f;
+            color: #ffffff;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .autocomplete-item {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #d4d4d4;
+        }
+
+        .autocomplete-item:last-child {
+            border-bottom: none;
+        }
+
+        .autocomplete-item:hover {
+            background-color: #a3a9ff;
+        }
+
+        .message {
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .success {
+            background-color: rgba(20, 241, 149, 0.2);
+            color: #14f195;
+        }
+
+        .error {
+            background-color: rgba(255, 69, 58, 0.2);
+            color: #ff453a;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Pedido de Jogos - Kazumi Source</h1>
+        
+        <?php if (isset($message)): ?>
+        <div class="message <?php echo $status; ?>">
+            <?php echo $message; ?>
+        </div>
+        <?php endif; ?>
+
+        <form id="gameRequestForm" method="POST" action="">
+            <div class="form-group">
+                <label for="server">Servidor do Discord:</label>
+                <select id="server" name="server" required>
+                    <option value="" disabled selected>Selecione seu servidor</option>
+                    <option value="hydra">Servidor do Hydra</option>
+                    <option value="bumyy">Servidor do Bumyy</option>
+                    <option value="outro">Outro servidor</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="discordNick">Seu Nick no Discord:</label>
+                <input
+                    type="text"
+                    id="discordNick"
+                    name="discordNick"
+                    placeholder="Exemplo: Kazumi#1234"
+                    required
+                />
+            </div>
+
+            <div class="form-group">
+                <label for="gameTitle">Ti­tulo do Jogo que deseja:</label>
+                <input
+                    type="text"
+                    id="gameTitle"
+                    name="gameTitle"
+                    placeholder="Exemplo: Elden Ring"
+                    required
+                    autocomplete="off"
+                />
+                <div id="autocomplete-list" class="autocomplete-items"></div>
+            </div>
+
+            <button type="submit" class="submit-btn">Enviar Pedido</button>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const gameTitleInput = document.getElementById("gameTitle");
+            const autocompleteList = document.getElementById("autocomplete-list");
+
+            // Se você tiver um worker para autocompletar, pode manter essa lógica
+            /*
+            const worker = new Worker("search-worker.js");
+
+            worker.onmessage = function (event) {
+                const games = event.data;
+
+                games.forEach((game) => {
+                    const item = document.createElement("div");
+                    item.classList.add("autocomplete-item");
+                    item.textContent = game.name;
+                    item.addEventListener("click", () => {
+                        gameTitleInput.value = game.name;
+                        autocompleteList.innerHTML = "";
+                    });
+                    autocompleteList.appendChild(item);
+                });
+            };
+            */
+
+            function debounce(func, delay) {
+                let timeout;
+                return function (...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func.apply(this, args), delay);
+                };
+            }
+
+            const debouncedInput = debounce(function () {
+                const query = this.value.toLowerCase();
+                autocompleteList.innerHTML = "";
+
+                if (!query) return;
+
+                // Você pode implementar uma busca via AJAX aqui
+                // Exemplo:
+                /*
+                fetch('search_games.php?q=' + encodeURIComponent(query))
+                    .then(response => response.json())
+                    .then(games => {
+                        games.forEach(game => {
+                            const item = document.createElement("div");
+                            item.classList.add("autocomplete-item");
+                            item.textContent = game.name;
+                            item.addEventListener("click", () => {
+                                gameTitleInput.value = game.name;
+                                autocompleteList.innerHTML = "";
+                            });
+                            autocompleteList.appendChild(item);
+                        });
+                    });
+                */
+            }, 300);
+
+            gameTitleInput.addEventListener("input", debouncedInput);
+        });
+    </script>
+</body>
+</html>
