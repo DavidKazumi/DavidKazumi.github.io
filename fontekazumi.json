@@ -6538,12 +6538,6 @@
       "fileSize": "15.4 GB"
     },
     {
-      "title": "LEGO Batman 3: Beyond Gotham (v1.6) [Pre-Instalado] ",
-      "uris": ["https://gofile.io/d/Y88fH4"],
-      "uploadDate": "2025-03-13T23:00:00.000Z",
-      "fileSize": "8.5 GB"
-    },
-    {
       "title": "Gold Mining Simulator (v1.8.5.1071) [Pre-Instalado] ",
       "uris": ["https://gofile.io/d/FUqQe6"],
       "uploadDate": "2025-03-13T23:00:00.000Z",
@@ -9840,14 +9834,6 @@
       "fileSize": "1.5 GB"
     },
     {
-      "title": "Lego Batman 3: Beyond Gotham (Update 2 + Todas as DLCs) [Pre-Instalado] ",
-      "uris": [
-        "https://datanodes.to/6jdcei3bqg82/Lego-Batman-3-Beyond-Gotham.rar"
-      ],
-      "uploadDate": "2025-05-25T20:00:00.000Z",
-      "fileSize": "7.4 GB"
-    },
-    {
       "title": "Call of Duty: Vanguard (v1.26 + Multiplayer + Zombies) [Pre-Instalado] ",
       "uris": [
         "magnet:?xt=urn:btih:f4c545f83b142a5a222f8a7a280cb28106516586&dn=Call%20of%20Duty%20Vanguard%20Campaign%20Portable%20by%20Ksenia&xl=86962269528&tr=http%3A%2F%2Fbt.piratbit.club%2F00075796927dcbaf4354f8cf0eabfc6b%2Fannounce"
@@ -9896,6 +9882,14 @@
       "uris": ["https://datanodes.to/4kttjlfgaodv/REPO.zip"],
       "uploadDate": "2025-05-26T20:00:00.000Z",
       "fileSize": "453.8 MB"
+    },
+    {
+      "title": "Lego Batman 3: Beyond Gotham (Update 2 + Todas as DLCs) [Pre-Instalado] ",
+      "uris": [
+        "https://datanodes.to/6jdcei3bqg82/Lego-Batman-3-Beyond-Gotham.rar"
+      ],
+      "uploadDate": "2025-05-25T20:00:00.000Z",
+      "fileSize": "7.4 GB"
     }
   ]
 }
