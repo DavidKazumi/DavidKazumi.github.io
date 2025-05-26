@@ -9782,12 +9782,6 @@
       "fileSize": "21.2 GB"
     },
     {
-      "title": "Call of Duty: Modern Warfare II [Pre-Instalado] ",
-      "uris": ["https://datanodes.to/ympml05t6euk/Call-of-Duty.-odern-Warfare-II.rar"],
-      "uploadDate": "2025-05-24T20:00:00.000Z",
-      "fileSize": "31.3 GB"
-    },
-    {
       "title": "Call of Duty: Ghosts [Pre-Instalado] ",
       "uris": ["https://datanodes.to/qdv26cujzrc5/Call-of-Duty-Ghosts-.rar"],
       "uploadDate": "2025-05-24T20:00:00.000Z",
@@ -9795,7 +9789,9 @@
     },
     {
       "title": "Call of Duty World at War (v1.7.1263) [Pre-Instalado] ",
-      "uris": ["https://datanodes.to/uz3akn7ky78n/Call-of-Duty-World-at-War.rar"],
+      "uris": [
+        "https://datanodes.to/uz3akn7ky78n/Call-of-Duty-World-at-War.rar"
+      ],
       "uploadDate": "2025-05-24T20:00:00.000Z",
       "fileSize": "5.5 GB"
     },
@@ -9831,7 +9827,9 @@
     },
     {
       "title": "CarX Drift Racing Online (Build 17224552) [Pre-Instalado] ",
-      "uris": ["https://www.mediafire.com/file/fafwz1qpxvpmj4c/CarX.Drift.Racing.Online.Build.17224552.7z/file"],
+      "uris": [
+        "https://www.mediafire.com/file/fafwz1qpxvpmj4c/CarX.Drift.Racing.Online.Build.17224552.7z/file"
+      ],
       "uploadDate": "2025-05-25T20:00:00.000Z",
       "fileSize": "4.29 GB"
     },
@@ -9849,21 +9847,35 @@
     },
     {
       "title": "Lego Batman 3: Beyond Gotham (Update 2 + Todas as DLCs) [Pre-Instalado] ",
-      "uris": ["https://datanodes.to/6jdcei3bqg82/Lego-Batman-3-Beyond-Gotham.rar"],
+      "uris": [
+        "https://datanodes.to/6jdcei3bqg82/Lego-Batman-3-Beyond-Gotham.rar"
+      ],
       "uploadDate": "2025-05-25T20:00:00.000Z",
       "fileSize": "7.4 GB"
     },
     {
       "title": "Call of Duty: Vanguard (v1.26 + Multiplayer + Zombies) [Pre-Instalado] ",
-      "uris": ["magnet:?xt=urn:btih:f4c545f83b142a5a222f8a7a280cb28106516586&dn=Call%20of%20Duty%20Vanguard%20Campaign%20Portable%20by%20Ksenia&xl=86962269528&tr=http%3A%2F%2Fbt.piratbit.club%2F00075796927dcbaf4354f8cf0eabfc6b%2Fannounce"],
+      "uris": [
+        "magnet:?xt=urn:btih:f4c545f83b142a5a222f8a7a280cb28106516586&dn=Call%20of%20Duty%20Vanguard%20Campaign%20Portable%20by%20Ksenia&xl=86962269528&tr=http%3A%2F%2Fbt.piratbit.club%2F00075796927dcbaf4354f8cf0eabfc6b%2Fannounce"
+      ],
       "uploadDate": "2025-05-25T20:00:00.000Z",
       "fileSize": "80.98 GB"
     },
     {
       "title": "Undertale (b4279148) [SENHA = elenemigos.com] [Pre-Instalado] ",
-      "uris": ["https://www.mediafire.com/file/1bgfpacru46k5aw/Undertale_b4279148_ElEnemigos.rar/file"],
+      "uris": [
+        "https://www.mediafire.com/file/1bgfpacru46k5aw/Undertale_b4279148_ElEnemigos.rar/file"
+      ],
       "uploadDate": "2025-05-25T20:00:00.000Z",
       "fileSize": "135.08 MB"
+    },
+    {
+      "title": "Call of Duty: Modern Warfare II – Vault Edition [Pre-Instalado] ",
+      "uris": [
+        "magnet:?xt=urn:btih:a4850b69ea838d2751172f9f55ae43924b3825b1&dn=Call%20of%20Duty%20Modern%20Warfare%20II%20Campaign&xl=36621454635&tr=http%3A%2F%2Fgmt-max.org%3A2710%2Fannounce&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2F0037dabdd620052d8ac1d521f466fb84%2Fannounce&tr=http%3A%2F%2Fretracker.local%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.openbittorrent.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A6969%2Fannounce&tr=http%3A%2F%2Ftr.ysagin.top%3A2710%2Fannounce&tr=http%3A%2F%2Ftr2.ysagin.top%3A2715%2Fannounce&tr=udp%3A%2F%2Fopentor.org%3A2710&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce"
+      ],
+      "uploadDate": "2025-05-24T20:00:00.000Z",
+      "fileSize": "34.10 GB"
     }
   ]
 }
