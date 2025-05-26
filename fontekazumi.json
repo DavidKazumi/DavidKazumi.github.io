@@ -8540,12 +8540,6 @@
       "fileSize": "27.1 GB"
     },
     {
-      "title": "R.E.P.O. (v0.1.2 + Online) [Pre-Instalado] ",
-      "uris": ["https://gofile.io/d/6jwqYF"],
-      "uploadDate": "2025-05-04T20:00:00.000Z",
-      "fileSize": "419.1 MB"
-    },
-    {
       "title": "Barotrauma (v1.8.8.1) [Pre-Instalado] ",
       "uris": ["https://gofile.io/d/kfqFJJ"],
       "uploadDate": "2025-05-04T20:00:00.000Z",
@@ -9887,19 +9881,21 @@
     },
     {
       "title": "Grand Theft Auto IV The Complete Edition (v1.2.0.59) [Pre-Instalado] ",
-      "uris": [
-        "https://datanodes.to/cihu6blj23bd/GTA-IV.rar"
-      ],
+      "uris": ["https://datanodes.to/cihu6blj23bd/GTA-IV.rar"],
       "uploadDate": "2025-05-25T20:00:00.000Z",
       "fileSize": "19.8 GB"
     },
     {
       "title": "Road 96: Mile 0 (v1.01) [Pre-Instalado] ",
-      "uris": [
-        "https://pixeldrain.com/u/TW1xF49c"
-      ],
+      "uris": ["https://pixeldrain.com/u/TW1xF49c"],
       "uploadDate": "2025-05-25T20:00:00.000Z",
       "fileSize": "4.72 GB"
+    },
+    {
+      "title": "R.E.P.O. (v0.1.2.32) [Pre-Instalado] ",
+      "uris": ["https://datanodes.to/4kttjlfgaodv/REPO.zip"],
+      "uploadDate": "2025-05-26T20:00:00.000Z",
+      "fileSize": "453.8 MB"
     }
   ]
 }
